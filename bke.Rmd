@@ -1,0 +1,19 @@
+---
+title: "R Notebook"
+output:
+  pdf_document:
+    toc: yes
+    number_sections: true
+  html_notebook:
+    toc: yes
+    number_sections: true
+---
+
+# Inleiding
+
+Bla bla
+
+# Toetscyclus
+
+Bla bla
+
