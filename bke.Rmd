@@ -4,14 +4,14 @@ author: "Witek ten Hove"
 date: "28 Februari 2020"
 description: "This book introduces the ABC theory, and ..."
 output:
-  bookdown::pdf_book:
-    number_sections: yes
   bookdown::gitbook:
     df_print: paged
     number_sections: yes
     css: "styles.css"
     config:
        download: [ ["bke.pdf", "PDF"]]
+  bookdown::pdf_book:
+    number_sections: yes
 ---
 
 # Inleiding
