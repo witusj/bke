@@ -1,12 +1,13 @@
 ---
-title: "R Notebook"
+title: "BKE Portfolio"
+author: "Witek ten Hove"
+date: "28 Februari 2020"
 output:
-  pdf_document:
-    toc: yes
-    number_sections: true
-  html_notebook:
-    toc: yes
-    number_sections: true
+  bookdown::gitbook:
+    df_print: paged
+    number_sections: yes
+    css: "styles.css"
+    download: ["book.pdf", "book.epub"]
 ---
 
 # Inleiding
@@ -15,5 +16,10 @@ Bla bla
 
 # Toetscyclus
 
-Bla bla
+```{r toetscyclus, echo=FALSE, fig.align='center', fig.cap="Toetscyclus", out.width="40%",  warning=FALSE}
+knitr::include_graphics('images/toetscyclus.png')
+```
+
+
+
 
