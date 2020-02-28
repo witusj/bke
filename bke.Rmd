@@ -3,6 +3,9 @@ title: "BKE Portfolio"
 author: "Witek ten Hove"
 date: "28 Februari 2020"
 description: "This book introduces the ABC theory, and ..."
+bibliography: ["lit.bib"]
+biblio-style: "apalike"
+link-citations: true
 output:
   bookdown::gitbook:
     df_print: paged
@@ -62,7 +65,14 @@ Ontwerpprincipes
 
 ## Basisontwerp
 
-Gezien het brede character van de competenties en de eerdergenoemde succesfactoren is ervoor gekozen om niet volgens strak gedefinieerde toetsmatrijzen en criteria te toetsen. Door op meerdere momenten tijdens het semester bewijslast aan te leveren, kunnen studenten hun groei naar en bereiken van afzonderlijke comptenties aantonen (Continuous Assessment). Hierbij wordt maximale autonomie gegeven aan de student wat betreft de vorm, inhoud en volgorde. Bewijzen worden verzameld in een persoonlijk portfolio. Een voorbeeld hiervan vind u [hier](https://minorsmart.github.io/personal-portfolio-coengoossens78/index.html).
+Gezien het brede character van de competenties en de eerdergenoemde succesfactoren is ervoor gekozen om niet volgens strak gedefinieerde toetsmatrijzen en criteria te toetsen. Door op meerdere momenten tijdens het semester bewijslast aan te leveren, kunnen studenten hun groei naar en bereiken van afzonderlijke comptenties aantonen (continuous assessment). Hierbij wordt maximale autonomie gegeven aan de student wat betreft de vorm, inhoud en volgorde. Bewijzen worden verzameld in een persoonlijk portfolio. Een voorbeeld hiervan vind u [hier](https://minorsmart.github.io/personal-portfolio-coengoossens78/index.html).
+
+Bij continuous assessment wordt toetsing verdeeld over meerdere momenten in een studietraject, in plaats van een enkel afsluitend tentamen aan het einde. Uit onderzoek blijkt dat dit drie voordelen biedt voor het leereffect van de student [@dayExplainingIndividualStudent2018b].
+
+Ten eerste is er het zogenaamde testing effect [@roediger2006power] oftewel de kracht van herhaling. Door vaker te oefenen met de materie blijft informatie beter beklijven. Een volgend voordeel van continuous assessment is het spacing effect. Door meer tijd in te bouwen tussen herhalingen van studiestof, wordt het leereffect verhoogd [@kornell2009optimising]. Het derde effect heeft te maken met reflectie [@moon1999reflection]. Anders dan bij eenmalig toetsen, biedt herhaald toetsen ruimte voor de student om te reflecteren op zijn prestaties.
+
+Binnen de context van de minor is er nog een aanvullend positief effect. Door meer casussen te onderzoeken, creëert de student een grotere ervaringsset, waaruit hij later meer inspiratie kan putten.
+
 
 ## Ontwerp toetsmatrijs
 
@@ -96,3 +106,12 @@ Tekst
 
 Tekst
 
+# Bibliografie
+
+<div id="refs"></div>
+
+# (APPENDIX) Bijlagen {-} 
+
+# Voorbeeld 1
+
+# Voorbeeld 2
