@@ -13,14 +13,21 @@ output:
     css: "styles.css"
     includes:
     config:
-       download: [ ["bke.pdf", "PDF"]]
+       download: [ ["bkepdf.pdf", "PDF"]]
   bookdown::pdf_book:
     number_sections: yes
 ---
 
+```{r message=FALSE, warning=FALSE}
+library(formattable)
+```
+
+
 # Inleiding
 
 De Minor Smart Industry van de Hogeschool Arnhem en Nijmegen is een verbredende Minor. Studenten vanuit verschillende opleidingen verkennen nieuwe technologieën en leren hoe hiermee waarde kan worden gecreëerd. Tijdens het studietraject leren ze het belang van samenwerking, kennisdeling en continuous improvement voor het innovatievermogen van organisaties.
+
+Bij het thema Smart Industry spelen zaken als innovatie en disruptie een belangrijke rol. Dit houdt in dat omgang met onzekerheid, initiatief nemen en creatief vermogen succesfactoren zijn, zowel voor de individuele professional als de organisatie die Smart(er) wil worden. 
 
 ```{r smartindustry, echo=FALSE, fig.align='center', fig.cap="Smart Industry model", out.width="40%", warning=FALSE}
 knitr::include_graphics('images/smartindustry.jpg')
@@ -34,13 +41,16 @@ Het studieprogramma bestaat uit vijf onderdelen/modules:
 * Smart Technology - Hardware
 * Project
 
-In dit portfolio zal de toetscyclus binnen Smart Start worden doorgenomen en besproken. Dit onderdeel heeft een aandeel van 20% in het gehele programma (6 ECTS / 168 SBU). Studenten moeten bewijzen dat ze zich op volgende competenties hebben ontwikkeld:
+In dit portfolio zal de toetscyclus binnen Smart Start worden doorgenomen en besproken. Dit onderdeel heeft een aandeel van 20% in het gehele programma (6 ECTS / 168 SBU). Studenten moeten bewijzen dat ze zich op een set competenties hebben ontwikkeld d.m.v. een aantal leeruitkomsten.
 
-* Student beschrijft de mate van volwassenheid van een organisatie m.b.t. Smart Industry in een business case
-* Student communiceert op effectieve wijze zijn bevindingen naar verschillende doelgroepen
-* Student werkt actief aan zijn professionele ontwikkeling
+```{r echo=FALSE}
+Competentie <- c("Herkennen / Analyseren / Diagnosticeren", "Communiceren", "Professionaliseren")
+Leeruitkomst <- c("Student beschrijft de mate van volwassenheid van een organisatie m.b.t. Smart Industry in een business case", "Student communiceert op effectieve wijze zijn bevindingen naar verschillende doelgroepen", "Student werkt actief aan zijn professionele ontwikkeling")
 
-Bij het thema Smart Industry spelen zaken als innovatie en disruptie een belangrijke rol. Dit houdt in dat omgang met onzekerheid, initiatief nemen en creatief vermogen succesfactoren zijn, zowel voor de individuele professional als de organisatie die Smart(er) wil worden. 
+compDf <- data.frame(Competentie, Leeruitkomst)
+formattable(compDf, align="l")
+```
+
 
 # Toetscyclus
 
@@ -66,18 +76,72 @@ Ontwerpprincipes
 
 ## Basisontwerp
 
-Gezien het brede character van de competenties en de eerdergenoemde succesfactoren is ervoor gekozen om niet volgens strak gedefinieerde toetsmatrijzen en criteria te toetsen. Door op meerdere momenten tijdens het semester bewijslast aan te leveren, kunnen studenten hun groei naar en bereiken van afzonderlijke comptenties aantonen (continuous assessment). Hierbij wordt maximale autonomie gegeven aan de student wat betreft de vorm, inhoud en volgorde. Bewijzen worden verzameld in een persoonlijk portfolio. Een voorbeeld hiervan vind u [hier](https://minorsmart.github.io/personal-portfolio-coengoossens78/index.html).
+Gezien het brede character van de competenties en de eerdergenoemde succesfactoren is ervoor gekozen om niet volgens strak toetsprogramma te werken. Studenten kunnen op meerdere momenten tijdens het semester bewijslast aanleveren ten behoeve van de verschillende leeruitkomsten. Hiermee tonen ze hun groei naar en bereiken van afzonderlijke comptenties aantonen (continuous assessment). Ze hebben maximale autonomie wat betreft de vorm, inhoud en volgorde. Bewijzen worden verzameld in een persoonlijk portfolio. Een voorbeeld hiervan vind u [hier](https://minorsmart.github.io/personal-portfolio-coengoossens78/index.html).
 
-Bij continuous assessment wordt toetsing verdeeld over meerdere momenten in een studietraject, in plaats van een enkel afsluitend tentamen aan het einde. Uit onderzoek blijkt dat dit drie voordelen biedt voor het leereffect van de student [@dayExplainingIndividualStudent2018b].
-
-Ten eerste is er het zogenaamde testing effect [@roediger2006power] oftewel de kracht van herhaling. Door vaker te oefenen met de materie blijft informatie beter beklijven. Een volgend voordeel van continuous assessment is het spacing effect. Door meer tijd in te bouwen tussen herhalingen van studiestof, wordt het leereffect verhoogd [@kornell2009optimising]. Het derde effect heeft te maken met reflectie [@moon1999reflection]. Anders dan bij eenmalig toetsen, biedt herhaald toetsen ruimte voor de student om te reflecteren op zijn prestaties.
+Uit onderzoek blijkt dat continuous assessment als toetsvorm drie voordelen biedt voor het leereffect van de student [@dayExplainingIndividualStudent2018b]. Ten eerste is er het zogenaamde testing effect [@roediger2006power] oftewel de kracht van herhaling. Door vaker te oefenen met de materie blijft informatie beter beklijven. Een volgend voordeel van continuous assessment is het spacing effect. Door meer tijd in te bouwen tussen herhalingen van studiestof, wordt het leereffect verhoogd [@kornell2009optimising]. Het derde effect heeft te maken met reflectie [@moon1999reflection]. Anders dan bij eenmalig toetsen, biedt herhaald toetsen ruimte voor de student om te reflecteren op zijn prestaties.
 
 Binnen de context van de minor is er nog een aanvullend positief effect. Door meer casussen te onderzoeken, creëert de student een grotere ervaringsset, waaruit hij later meer inspiratie kan putten.
 
 
 ## Ontwerp toetsmatrijs
 
-Tekst
+Een toetsmatrijs is een instrument waarmee de toetsontwerper kan beoordelen in welke mate de toets daadwerkelijk alle geformuleerde leeruitkomsten meet en of de manier van meten voldoende betrouwbaar is (bijv. of iedere student op hetzelfde niveau wordt getest).
+
+Het helpt de constructeur bovendien zich te beperken tot een vragenset die MECE is - volledig en zonder overlap. Dit bespaart tijd bij het maken van de toets en de beoordeling [@AnimationHowCreate].
+
+Een toetsmatrijs bestaat uit twee dimensies, namelijk de leeruitkomsten en het cognitieve niveau dat wordt getoetst.
+
+```{r toetsmatrijs, echo=FALSE, fig.align='center', fig.cap="Toetsmatrijs Smart Start", out.width="100%", warning=FALSE}
+knitr::include_graphics('images/toetsmatrijs.png')
+```
+
+### Leeruitkomsten
+Kwaliteitscriteria leeruitkomsten Voordat begonnen wordt met de definitie van de leeruitkomsten, dient eerst te worden bedacht waarom een specifiek onderwerp bestudeerd moet worden[@biggs2014evaluating]:
+
+* Om kaders aan de brengen, zodat studenten weten 'wat er allemaal speelt'
+* Om studenten op de hoogte te brengen van de actuele stand der dingen, zodat studenten over de nieuwste kennis beschikken
+* Om kennis aan te brengen die wellicht nu nog niet nodig is, maar waarschijnlijk later wel nuttig zal zijn
+* Zodat er een basis is waarop gefundeerde beslissingen kunnen worden genomen in de nabije toekomst, zoals in probleemgestuurd onderwijs
+
+
+
+
+### Cognitieve niveau's / begripsniveau's
+
+Nadat de leeruitkomsten zijn gedefinieerd
+Next, it is necessary to ask why you are teaching this particular topic:
+• to delineate boundaries, giving students a broad picture of what’s ‘there’;
+• to inform on a current state of play, to bring students up to date on the
+state of the topic or discipline;
+• to stockpile knowledge, of no perceived use for the present, but likely to
+be needed later; or
+• to inform decisions that need making in the near future, as in problem-
+based learning?
+Each of these purposes implies a different level and kind of understanding;
+each can be nominated by identifying the appropriate outcome action
+verbs.
+
+
+Om de verschillende cognitieve niveau's te kunnen onderscheiden zijn een aantal taxonomieën ontworpen Hieronder worden er twee besproken, die van Bloom [@proquest199579418] en de classificatiesysteem volgens SOLO [@biggs2014evaluating].
+
+**Bloom**
+
+```{r bloom, echo=FALSE, fig.align='center', fig.cap="Bloom's Taxonomie voor cognitieve leerniveau's", out.width="80%", warning=FALSE}
+knitr::include_graphics('images/bloom.jpg')
+```
+
+**Structure of the Observed Learning Outcome (SOLO)**
+
+As learning progresses it becomes more complex. SOLO, which stands for the Structure of the Observed Learning Outcome, is a means of classifying learning outcomes in terms of their complexity, enabling us to assess students’ work in terms of its quality not of how many bits of this and of that they have got right. At first we pick up only one or few aspects of the task (unistructural), then several aspects but they are unrelated (multistructural), then we learn how to integrate them into a whole (relational), and finally, we are able to generalised that whole to as yet untaught applications (extended abstract). The diagram lists verbs typical of each such level.
+
+
+```{r solo, echo=FALSE, fig.align='center', fig.cap="Solo Taxonomie voor begripsniveau's", out.width="80%", warning=FALSE}
+knitr::include_graphics('images/solotaxonomy.png')
+```
+
+Voor onze toets hanteren we vier niveaus's:
+
+* Niveau 1: 
 
 ## Construeren toets en normen
 
@@ -116,7 +180,3 @@ Tekst
 # Voorbeeld 1
 
 # Voorbeeld 2
-
-<table class="tableizer-table">
-<thead><tr class="tableizer-firstrow"><th><div class="ritz grid-container" dir="ltr"><table class="waffle" cellspacing="0" cellpadding="0"><thead><tr><th class="row-header freezebar-origin-ltr"></th><th id="0C0" style="width:231px" class="column-headers-background">A</th><th id="0C1" style="width:150px" class="column-headers-background">B</th><th id="0C2" style="width:100px" class="column-headers-background">C</th><th id="0C3" style="width:100px" class="column-headers-background">D</th><th id="0C4" style="width:100px" class="column-headers-background">E</th><th id="0C5" style="width:100px" class="column-headers-background">F</th><th id="0C6" style="width:100px" class="column-headers-background">G</th></tr></thead><tbody><tr style='height:20px;'><th id="0R0" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">1</div></th><td class="s0" dir="ltr"></th><th class="s1"></th><th class="s2" dir="ltr">Niveau 0</th><th class="s2" dir="ltr">Niveau 1</th><th class="s2" dir="ltr">Niveau 2</th><th class="s2" dir="ltr">Niveau 3</th><th class="s2" dir="ltr">Niveau 4</th></tr><tr style='height:20px;'><th id="0R1" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">2</div></th><th class="s3"></th><td class="s2" dir="ltr">Kwaliteit:</td><td class="s4" dir="ltr">Kan niet worden beoordeeld of slecht</td><td class="s4" dir="ltr">Onvoldoende</td><td class="s4" dir="ltr">Mediocre</td><td class="s4" dir="ltr">Goed</td><td class="s4" dir="ltr">Uitmuntend</td></tr><tr style='height:20px;'><th id="0R2" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">3</div></th><td class="s5"></td><td class="s2" dir="ltr">Score:</td><td class="s6" dir="ltr">0</td><td class="s6" dir="ltr">2</td><td class="s6" dir="ltr">5</td><td class="s6" dir="ltr">8</td><td class="s6" dir="ltr">10</td></tr><tr style='height:20px;'><th id="0R3" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">4</div></th><td class="s1 softmerge" dir="ltr"><div class="softmerge-inner" style="width: 228px; left: -1px;">Competenties / Student ...</div></td><td class="s2" dir="ltr">Criteria</td><td class="s7"></td><td class="s7"></td><td class="s7"></td><td class="s7"></td><td class="s7"></td></tr><tr style='height:20px;'><th id="0R4" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">5</div></th><td class="s8" dir="ltr">beschrijft de mate van volwassenheid van een organisatie m.b.t. Smart Industry in een business case</td><td class="s4" dir="ltr">Relatie met Smart Industry</td><td class="s9" dir="ltr" rowspan="6">Alle criteria moeten minimaal van niveau 1 zijn voor een beoordeling</td><td class="s10" dir="ltr">De relatie met Smart Industry wordt <span style="font-weight:bold;">summier</span> beschreven</td><td class="s10" dir="ltr">De relatie met Smart Industry wordt beschreven, maar is <span style="font-weight:bold;">onvolledig</span></td><td class="s10" dir="ltr"><span style="font-weight:bold;">Alle</span> logische relaties met Smart Industry worden beschreven</td><td class="s10" dir="ltr">Er wordt een <span style="font-weight:bold;">visie</span> op Smart Industry geformuleerd</td></tr><tr style='height:20px;'><th id="0R5" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">6</div></th><td class="s8"></td><td class="s4" dir="ltr">Volwassenheid organisatie</td><td class="s10" dir="ltr">De beschrijving is onvoldoende <span style="font-weight:bold;">specifiek</span></td><td class="s10" dir="ltr">De beschrijving is niet op alle punten <span style="font-weight:bold;">MECE</span></td><td class="s10" dir="ltr">De beschrijving geeft een goed beeld van de betreffende <span style="font-weight:bold;">casus</span></td><td class="s10" dir="ltr">De diepere <span style="font-weight:bold;">betekenis</span> voor de organisatie en/of haar ketens worden besproken</td></tr><tr style='height:20px;'><th id="0R6" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">7</div></th><td class="s8" dir="ltr">communiceert op effectieve wijze zijn bevindingen naar verschillende doelgroepen</td><td class="s4" dir="ltr">Inhoudelijke kwaliteit</td><td class="s10" dir="ltr">Methode van onderzoek is <span style="font-weight:bold;">ongestructureerd</span></td><td class="s10" dir="ltr">De gebruikte onderzoeksmethode of toepassing <span style="font-weight:bold;">ontoereikbaar</span></td><td class="s10" dir="ltr">De analyse en conclusies zijn gebaseerd op goede <span style="font-weight:bold;">data</span></td><td class="s10" dir="ltr">De methode van onderzoek is <span style="font-weight:bold;">reproduceerbaar</span> voor andere casussen</td></tr><tr style='height:20px;'><th id="0R7" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">8</div></th><td class="s8"></td><td class="s4" dir="ltr">Toegankelijkheid</td><td class="s10" dir="ltr">Het materiaal wordt als <span style="font-weight:bold;">statisch</span> document aangeboden (Word, pdf, ...)</td><td class="s10" dir="ltr">Het document is <span style="font-weight:bold;">browser-based</span></td><td class="s10" dir="ltr">Het materiaal is <span style="font-weight:bold;">interactief</span></td><td class="s10" dir="ltr">Het materiaal is <span style="font-weight:bold;">dynamisch</span> en/of biedt mogelijkheden voor koppelingen met andere systemen (API)</td></tr><tr style='height:20px;'><th id="0R8" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">9</div></th><td class="s8" dir="ltr">werkt actief aan zijn professionele ontwikkeling</td><td class="s4" dir="ltr">Doelen</td><td class="s10" dir="ltr">De persoonlijke doelen zijn onvoldoende <span style="font-weight:bold;">specifiek</span></td><td class="s10" dir="ltr">De persoonlijke doelen zijn aan in de tijd geplaatste <span style="font-weight:bold;">activiteiten</span> gekoppeld</td><td class="s10" dir="ltr">De volledige <span style="font-weight:bold;">Learning & Development Journey</span> wordt beschreven</td><td class="s10" dir="ltr">Anderen worden aangemoedigd te <span style="font-weight:bold;">helpen</span></td></tr><tr style='height:20px;'><th id="0R9" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">10</div></th><td class="s8"></td><td class="s4" dir="ltr">Reflectie</td><td class="s10" dir="ltr">De reflectie is <span style="font-weight:bold;">naief</span> (alleen maar goed of slecht)</td><td class="s10" dir="ltr">De reflectie is van voldoende <span style="font-weight:bold;">diepgang</span>, maar onvolledig</td><td class="s10" dir="ltr">Nieuwe <span style="font-weight:bold;">groeidoelen</span> worden benoemd</td><td class="s10" dir="ltr">Er wordt een <span style="font-weight:bold;">nieuwe</span> Learning & Development Journey opgesteld</td></tr></tbody></table></div></td></tr>
-</tbody></table>

@@ -15,3 +15,8 @@ table.tableizer-table {
 		margin: 3px;
 		border: 1px solid #CCC;
 	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+	}

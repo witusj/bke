@@ -53,6 +53,68 @@
 <script src="libs/pagedtable-1.1/js/pagedtable.js"></script>
 
 
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 </head>
@@ -70,7 +132,10 @@
 <li class="chapter" data-level="1" data-path="inleiding.html"><a href="inleiding.html"><i class="fa fa-check"></i><b>1</b> Inleiding</a></li>
 <li class="chapter" data-level="2" data-path="toetscyclus.html"><a href="toetscyclus.html"><i class="fa fa-check"></i><b>2</b> Toetscyclus</a><ul>
 <li class="chapter" data-level="2.1" data-path="toetscyclus.html"><a href="toetscyclus.html#basisontwerp"><i class="fa fa-check"></i><b>2.1</b> Basisontwerp</a></li>
-<li class="chapter" data-level="2.2" data-path="toetscyclus.html"><a href="toetscyclus.html#ontwerp-toetsmatrijs"><i class="fa fa-check"></i><b>2.2</b> Ontwerp toetsmatrijs</a></li>
+<li class="chapter" data-level="2.2" data-path="toetscyclus.html"><a href="toetscyclus.html#ontwerp-toetsmatrijs"><i class="fa fa-check"></i><b>2.2</b> Ontwerp toetsmatrijs</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="toetscyclus.html"><a href="toetscyclus.html#leeruitkomsten"><i class="fa fa-check"></i><b>2.2.1</b> Leeruitkomsten</a></li>
+<li class="chapter" data-level="2.2.2" data-path="toetscyclus.html"><a href="toetscyclus.html#cognitieve-niveaus-begripsniveaus"><i class="fa fa-check"></i><b>2.2.2</b> Cognitieve niveau’s / begripsniveau’s</a></li>
+</ul></li>
 <li class="chapter" data-level="2.3" data-path="toetscyclus.html"><a href="toetscyclus.html#construeren-toets-en-normen"><i class="fa fa-check"></i><b>2.3</b> Construeren toets en normen</a></li>
 <li class="chapter" data-level="2.4" data-path="toetscyclus.html"><a href="toetscyclus.html#afnemen"><i class="fa fa-check"></i><b>2.4</b> Afnemen</a></li>
 <li class="chapter" data-level="2.5" data-path="toetscyclus.html"><a href="toetscyclus.html#beoordelen-verwerken-en-analyseren"><i class="fa fa-check"></i><b>2.5</b> Beoordelen, verwerken en analyseren</a></li>
@@ -102,302 +167,6 @@
             <section class="normal" id="section-">
 <div id="voorbeeld-2" class="section level1">
 <h1><span class="header-section-number">B</span> Voorbeeld 2</h1>
-<table class="tableizer-table">
-<thead>
-<tr class="tableizer-firstrow">
-<th>
-<div class="ritz grid-container" dir="ltr">
-<table class="waffle" cellspacing="0" cellpadding="0">
-<thead>
-<tr>
-<th class="row-header freezebar-origin-ltr">
-</th>
-<th id="0C0" style="width:231px" class="column-headers-background">
-A
-</th>
-<th id="0C1" style="width:150px" class="column-headers-background">
-B
-</th>
-<th id="0C2" style="width:100px" class="column-headers-background">
-C
-</th>
-<th id="0C3" style="width:100px" class="column-headers-background">
-D
-</th>
-<th id="0C4" style="width:100px" class="column-headers-background">
-E
-</th>
-<th id="0C5" style="width:100px" class="column-headers-background">
-F
-</th>
-<th id="0C6" style="width:100px" class="column-headers-background">
-G
-</th>
-</tr>
-</thead>
-<tbody>
-<tr style="height:20px;">
-<th id="0R0" style="height: 20px;" class="row-headers-background">
-<div class="row-header-wrapper" style="line-height: 20px;">
-1
-</div>
-</th>
-<td class="s0" dir="ltr">
-</th>
-<th class="s1">
-</th>
-<th class="s2" dir="ltr">
-Niveau 0
-</th>
-<th class="s2" dir="ltr">
-Niveau 1
-</th>
-<th class="s2" dir="ltr">
-Niveau 2
-</th>
-<th class="s2" dir="ltr">
-Niveau 3
-</th>
-<th class="s2" dir="ltr">
-Niveau 4
-</th>
-</tr>
-<tr style="height:20px;">
-<th id="0R1" style="height: 20px;" class="row-headers-background">
-<div class="row-header-wrapper" style="line-height: 20px;">
-2
-</div>
-</th>
-<th class="s3">
-</th>
-<td class="s2" dir="ltr">
-Kwaliteit:
-</td>
-<td class="s4" dir="ltr">
-Kan niet worden beoordeeld of slecht
-</td>
-<td class="s4" dir="ltr">
-Onvoldoende
-</td>
-<td class="s4" dir="ltr">
-Mediocre
-</td>
-<td class="s4" dir="ltr">
-Goed
-</td>
-<td class="s4" dir="ltr">
-Uitmuntend
-</td>
-</tr>
-<tr style="height:20px;">
-<th id="0R2" style="height: 20px;" class="row-headers-background">
-<div class="row-header-wrapper" style="line-height: 20px;">
-3
-</div>
-</th>
-<td class="s5">
-</td>
-<td class="s2" dir="ltr">
-Score:
-</td>
-<td class="s6" dir="ltr">
-0
-</td>
-<td class="s6" dir="ltr">
-2
-</td>
-<td class="s6" dir="ltr">
-5
-</td>
-<td class="s6" dir="ltr">
-8
-</td>
-<td class="s6" dir="ltr">
-10
-</td>
-</tr>
-<tr style="height:20px;">
-<th id="0R3" style="height: 20px;" class="row-headers-background">
-<div class="row-header-wrapper" style="line-height: 20px;">
-4
-</div>
-</th>
-<td class="s1 softmerge" dir="ltr">
-<div class="softmerge-inner" style="width: 228px; left: -1px;">
-Competenties / Student …
-</div>
-</td>
-<td class="s2" dir="ltr">
-Criteria
-</td>
-<td class="s7">
-</td>
-<td class="s7">
-</td>
-<td class="s7">
-</td>
-<td class="s7">
-</td>
-<td class="s7">
-</td>
-</tr>
-<tr style="height:20px;">
-<th id="0R4" style="height: 20px;" class="row-headers-background">
-<div class="row-header-wrapper" style="line-height: 20px;">
-5
-</div>
-</th>
-<td class="s8" dir="ltr">
-beschrijft de mate van volwassenheid van een organisatie m.b.t. Smart Industry in een business case
-</td>
-<td class="s4" dir="ltr">
-Relatie met Smart Industry
-</td>
-<td class="s9" dir="ltr" rowspan="6">
-Alle criteria moeten minimaal van niveau 1 zijn voor een beoordeling
-</td>
-<td class="s10" dir="ltr">
-De relatie met Smart Industry wordt <span style="font-weight:bold;">summier</span> beschreven
-</td>
-<td class="s10" dir="ltr">
-De relatie met Smart Industry wordt beschreven, maar is <span style="font-weight:bold;">onvolledig</span>
-</td>
-<td class="s10" dir="ltr">
-<span style="font-weight:bold;">Alle</span> logische relaties met Smart Industry worden beschreven
-</td>
-<td class="s10" dir="ltr">
-Er wordt een <span style="font-weight:bold;">visie</span> op Smart Industry geformuleerd
-</td>
-</tr>
-<tr style="height:20px;">
-<th id="0R5" style="height: 20px;" class="row-headers-background">
-<div class="row-header-wrapper" style="line-height: 20px;">
-6
-</div>
-</th>
-<td class="s8">
-</td>
-<td class="s4" dir="ltr">
-Volwassenheid organisatie
-</td>
-<td class="s10" dir="ltr">
-De beschrijving is onvoldoende <span style="font-weight:bold;">specifiek</span>
-</td>
-<td class="s10" dir="ltr">
-De beschrijving is niet op alle punten <span style="font-weight:bold;">MECE</span>
-</td>
-<td class="s10" dir="ltr">
-De beschrijving geeft een goed beeld van de betreffende <span style="font-weight:bold;">casus</span>
-</td>
-<td class="s10" dir="ltr">
-De diepere <span style="font-weight:bold;">betekenis</span> voor de organisatie en/of haar ketens worden besproken
-</td>
-</tr>
-<tr style="height:20px;">
-<th id="0R6" style="height: 20px;" class="row-headers-background">
-<div class="row-header-wrapper" style="line-height: 20px;">
-7
-</div>
-</th>
-<td class="s8" dir="ltr">
-communiceert op effectieve wijze zijn bevindingen naar verschillende doelgroepen
-</td>
-<td class="s4" dir="ltr">
-Inhoudelijke kwaliteit
-</td>
-<td class="s10" dir="ltr">
-Methode van onderzoek is <span style="font-weight:bold;">ongestructureerd</span>
-</td>
-<td class="s10" dir="ltr">
-De gebruikte onderzoeksmethode of toepassing <span style="font-weight:bold;">ontoereikbaar</span>
-</td>
-<td class="s10" dir="ltr">
-De analyse en conclusies zijn gebaseerd op goede <span style="font-weight:bold;">data</span>
-</td>
-<td class="s10" dir="ltr">
-De methode van onderzoek is <span style="font-weight:bold;">reproduceerbaar</span> voor andere casussen
-</td>
-</tr>
-<tr style="height:20px;">
-<th id="0R7" style="height: 20px;" class="row-headers-background">
-<div class="row-header-wrapper" style="line-height: 20px;">
-8
-</div>
-</th>
-<td class="s8">
-</td>
-<td class="s4" dir="ltr">
-Toegankelijkheid
-</td>
-<td class="s10" dir="ltr">
-Het materiaal wordt als <span style="font-weight:bold;">statisch</span> document aangeboden (Word, pdf, …)
-</td>
-<td class="s10" dir="ltr">
-Het document is <span style="font-weight:bold;">browser-based</span>
-</td>
-<td class="s10" dir="ltr">
-Het materiaal is <span style="font-weight:bold;">interactief</span>
-</td>
-<td class="s10" dir="ltr">
-Het materiaal is <span style="font-weight:bold;">dynamisch</span> en/of biedt mogelijkheden voor koppelingen met andere systemen (API)
-</td>
-</tr>
-<tr style="height:20px;">
-<th id="0R8" style="height: 20px;" class="row-headers-background">
-<div class="row-header-wrapper" style="line-height: 20px;">
-9
-</div>
-</th>
-<td class="s8" dir="ltr">
-werkt actief aan zijn professionele ontwikkeling
-</td>
-<td class="s4" dir="ltr">
-Doelen
-</td>
-<td class="s10" dir="ltr">
-De persoonlijke doelen zijn onvoldoende <span style="font-weight:bold;">specifiek</span>
-</td>
-<td class="s10" dir="ltr">
-De persoonlijke doelen zijn aan in de tijd geplaatste <span style="font-weight:bold;">activiteiten</span> gekoppeld
-</td>
-<td class="s10" dir="ltr">
-De volledige <span style="font-weight:bold;">Learning &amp; Development Journey</span> wordt beschreven
-</td>
-<td class="s10" dir="ltr">
-Anderen worden aangemoedigd te <span style="font-weight:bold;">helpen</span>
-</td>
-</tr>
-<tr style="height:20px;">
-<th id="0R9" style="height: 20px;" class="row-headers-background">
-<div class="row-header-wrapper" style="line-height: 20px;">
-10
-</div>
-</th>
-<td class="s8">
-</td>
-<td class="s4" dir="ltr">
-Reflectie
-</td>
-<td class="s10" dir="ltr">
-De reflectie is <span style="font-weight:bold;">naief</span> (alleen maar goed of slecht)
-</td>
-<td class="s10" dir="ltr">
-De reflectie is van voldoende <span style="font-weight:bold;">diepgang</span>, maar onvolledig
-</td>
-<td class="s10" dir="ltr">
-Nieuwe <span style="font-weight:bold;">groeidoelen</span> worden benoemd
-</td>
-<td class="s10" dir="ltr">
-Er wordt een <span style="font-weight:bold;">nieuwe</span> Learning &amp; Development Journey opgesteld
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
 </div>
             </section>
 
@@ -447,7 +216,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": [["bke.pdf", "PDF"]],
+"download": [["bkepdf.pdf", "PDF"]],
 "toc": {
 "collapse": "subsection"
 },
