@@ -25,7 +25,7 @@ library(formattable)
 
 # Inleiding
 
-De Minor Smart Industry van de Hogeschool Arnhem en Nijmegen is een verbredende Minor. Studenten vanuit verschillende opleidingen verkennen nieuwe technologieën en leren hoe hiermee waarde kan worden gecreëerd. Tijdens het studietraject leren ze het belang van samenwerking, kennisdeling en continuous improvement voor het innovatievermogen van organisaties.
+De Minor Smart Industry (MSI) van de Hogeschool Arnhem en Nijmegen is een verbredende Minor. Studenten vanuit verschillende opleidingen verkennen nieuwe technologieën en leren hoe hiermee waarde kan worden gecreëerd. Tijdens het studietraject leren ze het belang van samenwerking, kennisdeling en continuous improvement voor het innovatievermogen van organisaties.
 
 Bij het thema Smart Industry spelen zaken als innovatie en disruptie een belangrijke rol. Dit houdt in dat omgang met onzekerheid, initiatief nemen en creatief vermogen succesfactoren zijn, zowel voor de individuele professional als de organisatie die Smart(er) wil worden. 
 
@@ -96,52 +96,66 @@ knitr::include_graphics('images/toetsmatrijs.png')
 ```
 
 ### Leeruitkomsten
-Kwaliteitscriteria leeruitkomsten Voordat begonnen wordt met de definitie van de leeruitkomsten, dient eerst te worden bedacht waarom een specifiek onderwerp bestudeerd moet worden[@biggs2014evaluating]:
+Voordat begonnen wordt met de definitie van de leeruitkomsten, dient eerst te worden bedacht waarom een specifiek onderwerp bestudeerd moet worden[@biggs2014evaluating]:
 
 * Om kaders aan de brengen, zodat studenten weten 'wat er allemaal speelt'
 * Om studenten op de hoogte te brengen van de actuele stand der dingen, zodat studenten over de nieuwste kennis beschikken
 * Om kennis aan te brengen die wellicht nu nog niet nodig is, maar waarschijnlijk later wel nuttig zal zijn
-* Zodat er een kennisfundament op basis waarvan is waarop complexe beslissingen kunnen worden genomen in de nabije toekomst, zoals in probleemgestuurd onderwijs
+* Zodat er een kennisfundament is waarop complexe beslissingen kunnen worden genomen in de nabije toekomst, zoals in probleemgestuurd onderwijs
 
-De onderwerpen die bij MSI aan bod komen gaan over technologieën die nog niet mainstream zijn, in ieder geval niet bij het MKB. Tevens wordt verwacht dat studenten na het voltooien van de Minor goed geïnformeerd zijn over de keuzes die gemaakt kunnen worden en welke afwegingen hierbij horen. Dit
+Voor de Minor is zijn algemeenheid gelden met name de laatste twee items. De onderwerpen die bij MSI aan bod komen gaan over technologieën en toepassingen die nog niet mainstream zijn, in ieder geval niet bij het MKB. Tevens wordt verwacht dat studenten na het voltooien van de Minor goed geïnformeerd zijn over de keuzes die gemaakt kunnen worden en welke afwegingen hierbij horen.
 
+Een leeruitkomst bevat minimaal drie componenten:
+
+1. een gedragscomponent: wat moet de studenten doen/laten zien. Hiervoor gebruik je een werkwoord (zie verder bij taxonomieën)
+2. een inhoudscomponent: ten aanzien van welk onderwerp wordt de handeling uitgevoerd (het wat)
+3. voorwaarden/context waarin (het hoe)
+
+Als we deze criteria toepassen op de geformuleerde leeruitkomsten kunnen we de kwaliteit als volgt beoordelen:
+
+```{r echo=FALSE}
+Leeruitkomst <- c("Student beschrijft de mate van volwassenheid van een organisatie m.b.t. Smart Industry in een business case", "Student communiceert op effectieve wijze zijn bevindingen naar verschillende doelgroepen", "Student werkt actief aan zijn professionele ontwikkeling")
+Gedrag <- c("Beschrijft", "Communiceert", "Werkt")
+Inhoud <- c("Volwassenheid organisatie", "Bevindingen", "Ontwikkeling")
+Context <- c("Smart Industry", "Verschillende doelgroepen", "Professioneel")
+
+leeruitkomstenDf <- data.frame(Leeruitkomst, Gedrag, Inhoud, Context)
+formattable(leeruitkomstenDf, align="l")
+```
+De beschrijving van alle leeruitkomsten bevat elementen in alledrie de dimensies. Wat betreft de inhoudelijke invulling hiervan, kunnen zaken worden aangescherpt. Dit zal nader worden besproken in de evaluatie (H2.7)
 
 ### Cognitieve niveau's / begripsniveau's
 
-Nadat de leeruitkomsten zijn gedefinieerd
-Next, it is necessary to ask why you are teaching this particular topic:
-• to delineate boundaries, giving students a broad picture of what’s ‘there’;
-• to inform on a current state of play, to bring students up to date on the
-state of the topic or discipline;
-• to stockpile knowledge, of no perceived use for the present, but likely to
-be needed later; or
-• to inform decisions that need making in the near future, as in problem-
-based learning?
-Each of these purposes implies a different level and kind of understanding;
-each can be nominated by identifying the appropriate outcome action
-verbs.
+Nadat de leeruitkomsten zijn gedefinieerd, dient per leeruitkomst het verwachtte cognitieve niveau worden beschreven. Eerder waren al een aantal redenen geformuleerd waarom een onderwerp belangrijk is voor de ontwikkeling van de studenten. Iedere afzonderlijke reden impliceert een ander niveau van cognitie.
 
+Om de verschillende cognitieve niveau's te kunnen onderscheiden zijn een aantal taxonomieën ontworpen. Hieronder worden er twee gepresenteerd, de herziene versie van Bloom [@krathwohl2009taxonomy] en het hiërarchisch systeem volgens SOLO [@biggs2014evaluating].
 
-Om de verschillende cognitieve niveau's te kunnen onderscheiden zijn een aantal taxonomieën ontworpen Hieronder worden er twee besproken, die van Bloom [@proquest199579418] en de classificatiesysteem volgens SOLO [@biggs2014evaluating].
-
-**Bloom**
 
 ```{r bloom, echo=FALSE, fig.align='center', fig.cap="Bloom's Taxonomie voor cognitieve leerniveau's", out.width="80%", warning=FALSE}
 knitr::include_graphics('images/bloom.jpg')
 ```
 
-**Structure of the Observed Learning Outcome (SOLO)**
-
-As learning progresses it becomes more complex. SOLO, which stands for the Structure of the Observed Learning Outcome, is a means of classifying learning outcomes in terms of their complexity, enabling us to assess students’ work in terms of its quality not of how many bits of this and of that they have got right. At first we pick up only one or few aspects of the task (unistructural), then several aspects but they are unrelated (multistructural), then we learn how to integrate them into a whole (relational), and finally, we are able to generalised that whole to as yet untaught applications (extended abstract). The diagram lists verbs typical of each such level.
 
 
-```{r solo, echo=FALSE, fig.align='center', fig.cap="Solo Taxonomie voor begripsniveau's", out.width="80%", warning=FALSE}
+```{r solo, echo=FALSE, fig.align='center', fig.cap="Structure of the Observed Learning Outcome (SOLO) Taxonomie voor begripsniveau's", out.width="80%", warning=FALSE}
 knitr::include_graphics('images/solotaxonomy.png')
 ```
 
-Voor onze toets hanteren we vier niveaus's:
+Beide systemen hanteren een hiërarchische orde van denken.
 
-* Niveau 1: 
+Voor de module Smart Start hebben we een systeem ontworpen van vier denkniveau's. Deze niveau's kunnen worden terugvertaald naar bovenstaande taxonomieën:
+
+```{r echo=FALSE}
+SmartStart <- c("Niveau 4", "Niveau 3", "Niveau 2", "Niveau 1")
+Bloom <- c("Evaluatie en Creatie", "Inzicht, Toepassing en Analyse", "Reproductie", "-")
+SOLO <- c("Extended abstract", "Relational", "Multistructural", "Unistructural")
+
+leeruitkomstenDf <- data.frame(SmartStart, Bloom, SOLO)
+colnames(leeruitkomstenDf)[1] <- "Smart Start"
+formattable(leeruitkomstenDf, align="l")
+```
+
+De leeruitkomsten zijn uitgesplitst naar leertaken en per denkniveau zijn werkwoorden gebruikt om deze te beschrijven. De werkwoorden komen uit de twee taxonomieën (in sommige gevallen is gebruikt gemaakt van [uitgebreidere lijsten](https://www.apu.edu/live_data/files/333/blooms_taxonomy_action_verbs.pdf))
 
 ## Construeren toets en normen
 
