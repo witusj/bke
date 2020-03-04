@@ -175,7 +175,7 @@ knitr::include_graphics('images/portfolio.png')
 
 ## Beoordelen, verwerken en analyseren
 
-Voor het inleveren van portfolios worden persoonlijke repositories ingericht in Github Classroom. Gedurende het lopende programma kunnen studenten hier vrij in werken. Na afsluiting van de Minor, gaat het beheer automatisch over naar de HAN en kunnen studenten geen aanpassingen meer doen.
+Voor het inleveren van portfolios worden persoonlijke repositories ingericht in [Github Classroom](https://classroom.github.com/). Gedurende het lopende programma kunnen studenten hier vrij in werken. Na afsluiting van de Minor, gaat het beheer automatisch over naar de HAN en kunnen studenten geen aanpassingen meer doen.
 
 ```{r classroom, echo=FALSE, fig.align='center', fig.cap="Screenshot Github Classroom", out.width="80%", warning=FALSE}
 knitr::include_graphics('images/classroom.png')
