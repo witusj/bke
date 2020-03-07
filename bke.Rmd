@@ -2,7 +2,8 @@
 title: "BKE Portfolio"
 author: "Witek ten Hove"
 date: "28 Februari 2020"
-description: "This book introduces the ABC theory, and ..."
+description: "Dit portfolio beschrijft de toetscyclus van de Minor Smart Industry van de Hogeschool Arnhem en Nijmegen."
+github-repo: "witusj/bke"
 bibliography: ["lit.bib"]
 biblio-style: "apalike"
 link-citations: true
@@ -11,9 +12,14 @@ output:
     df_print: paged
     number_sections: yes
     css: "styles.css"
-    includes:
     config:
        download: [ ["bkepdf.pdf", "PDF"]]
+       sharing:
+          facebook: no
+          github: yes
+          twitter: no
+          linkedin: no
+          all: []
 ---
 
 ```{r message=FALSE, warning=FALSE}
