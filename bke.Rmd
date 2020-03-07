@@ -14,8 +14,6 @@ output:
     includes:
     config:
        download: [ ["bkepdf.pdf", "PDF"]]
-  bookdown::pdf_book:
-    number_sections: yes
 ---
 
 ```{r message=FALSE, warning=FALSE}
@@ -25,7 +23,7 @@ library(formattable)
 
 # Inleiding
 
-De Minor Smart Industry (MSI) van de Hogeschool Arnhem en Nijmegen is een verbredende Minor. Studenten vanuit verschillende opleidingen verkennen nieuwe technologieën en leren hoe hiermee waarde kan worden gecreëerd. Tijdens het studietraject leren ze het belang van samenwerking, kennisdeling en continuous improvement voor het innovatievermogen van organisaties.
+De Minor Smart Industry (MSI) van de Hogeschool Arnhem en Nijmegen is een verbredende Minor en wordt sinds 2016/17 aangeboden. Studenten vanuit verschillende opleidingen verkennen nieuwe technologieën en leren hoe hiermee waarde kan worden gecreëerd. Tijdens het studietraject leren ze het belang van samenwerking, kennisdeling en continuous improvement voor het innovatievermogen van organisaties.
 
 Bij het thema Smart Industry spelen zaken als innovatie en disruptie een belangrijke rol. Dit houdt in dat omgang met onzekerheid, initiatief nemen en creatief vermogen succesfactoren zijn, zowel voor de individuele professional als de organisatie die Smart(er) wil worden. 
 
@@ -41,7 +39,7 @@ Het studieprogramma bestaat uit vijf onderdelen/modules:
 * Smart Technology - Hardware
 * Project
 
-In dit portfolio zal de toetscyclus binnen Smart Start worden doorgenomen en besproken. Dit onderdeel heeft een aandeel van 20% in het gehele programma (6 ECTS / 168 SBU). Studenten moeten bewijzen dat ze zich op een set competenties hebben ontwikkeld d.m.v. een aantal leeruitkomsten.
+In dit portfolio zal de kwaliteit van de toetscyclus binnen Smart Start worden doorgenomen en besproken. Dit onderdeel heeft een aandeel van 20% in het gehele programma (6 ECTS / 168 SBU). Studenten moeten bewijzen dat ze zich op een set competenties hebben ontwikkeld d.m.v. een aantal leeruitkomsten.
 
 ```{r echo=FALSE}
 Competentie <- c("Herkennen / Analyseren / Diagnosticeren", "Communiceren", "Professionaliseren")
@@ -130,13 +128,11 @@ knitr::include_graphics('images/bloom.jpg')
 knitr::include_graphics('images/solotaxonomy.png')
 ```
 
-Beide systemen hanteren een hiërarchische orde van denken.
-
 Voor de module Smart Start hebben we een systeem ontworpen van vier denkniveau's. Deze niveau's kunnen worden terugvertaald naar bovenstaande taxonomieën:
 
 ```{r echo=FALSE}
 SmartStart <- c("Niveau 4", "Niveau 3", "Niveau 2", "Niveau 1")
-Bloom <- c("Evaluatie en Creatie", "Inzicht, Toepassing en Analyse", "Reproductie", "--")
+Bloom <- c("Evaluatie en Creatie", "Toepassing en Analyse", "Inzicht", "Reproductie")
 SOLO <- c("Extended abstract", "Relational", "Multistructural", "Unistructural")
 
 leeruitkomstenDf <- data.frame(SmartStart, Bloom, SOLO)
@@ -160,7 +156,7 @@ Bij de Minor wordt sterk op gedrag gestuurd. Studenten krijgen alle ruimte om hu
 knitr::include_graphics('images/journey.png')
 ```
 
-Ook over de criteria en normering worden van te voren afspraken gemaakt. De docent bewaakt dat deze overeenkomen met het beoogde cognitieve niveau.
+Ook over de criteria en normering worden van te voren afspraken gemaakt.De docent bewaakt dat deze overeenkomen met het beoogde cognitieve niveau.
 
 ## Afnemen
 
@@ -173,23 +169,35 @@ knitr::include_graphics('images/portfolio.png')
 ```
 
 
-## Beoordelen, verwerken en analyseren
+## Beoordelen en verwerken
 
-Voor het inleveren van portfolios worden persoonlijke repositories ingericht in [Github Classroom](https://classroom.github.com/). Gedurende het lopende programma kunnen studenten hier vrij in werken. Na afsluiting van de Minor, gaat het beheer automatisch over naar de HAN en kunnen studenten geen aanpassingen meer doen.
+Voor het inleveren van portfolios worden persoonlijke repositories ingericht in [Github Classroom](https://classroom.github.com/). Gedurende het lopende programma kunnen studenten hier vrij in werken. Na afsluiting van de Minor, gaat het beheer automatisch over naar de opleiding en kunnen studenten geen aanpassingen meer doen.
 
 ```{r classroom, echo=FALSE, fig.align='center', fig.cap="Screenshot Github Classroom", out.width="80%", warning=FALSE}
 knitr::include_graphics('images/classroom.png')
 ```
 
-Rubric, Moodle Logs, Dataiku
+Het portfolio heeft de vorm van een webpagina. Studenten plaatsen een link naar de webpagina in een postbus op het Learning Management System (LMS) van de opleiding. Docenten kunnen het daar oppakken en kijken het werk na met behulp van een rubric. De rubric is rechtstreeks gekoppeld aan de toetsmatrijs en de niveau's zijn gekoppeld aan scores, waarbij een voldoende score pas start bij het streefniveau. Er is ruimte voor compensatie, echter de wegingen zijn zodanig dan een meerderheid van de leeruitkomsten op het gewenste niveau dient te zijn voor een voldoende.
+
+```{r rubric, echo=FALSE, fig.align='center', fig.cap="Screenshot rubric op Moodle", out.width="80%", warning=FALSE}
+knitr::include_graphics('images/rubric.png')
+```
 
 ## Registreren en communiceren
 
-Inlevermodule Moodle
+Zodra de docent zijn beoordeling heeft bewaard, krijgt de student een mailbericht van het LMS dat zijn werk is beoordeeld. Hij kan per leeruitkomst bekijken op welk niveau het bevonden is en de feedback lezen. Het LMS opent direct een nieuwe mogelijk tot inlevering, zodat de student zaken nogmaals zaken kan aanleveren ter beoordeling, mocht dit nodig zijn.
 
-## Evalueren
+## Analyseren en Evalueren
 
-Kwaliteitssurveys
+Deze ronde van de Minor (semester 2 / collegejaar 2019/20) is de eerste maal dat bovenstaande toetsmatrijs zal worden toegepast.
+
+Omdat er tijdens het traject van continuous assessment regelmatig contact is, kan veel feedback worden opgehaald over de kwaliteit van toetsing. Tevens is er voortdurend contact met de docenten van de overige modules (Business, Connection en Technology), die op dezelfde wijze toetsen.
+
+Daarnaast worden studenten aangespoord om de periodieke kwaliteitssurvey's in te vullen. Hierin is een vraag opgenomen betreffende de toetsing.
+
+<<Overzicht kwaliteitsvragen toetscyclus>>
+
+Gedurende de Minor wordt door de coördinator van het programma structureel overleg ingepland om de kwaliteit van het onderwijs en toetsing te bespreken. Alle verzamelde data wordt geanalyseerd en besproken.
 
 # Verbetervoorstellen
 
