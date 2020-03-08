@@ -200,7 +200,7 @@ Gedurende de Minor wordt door de coördinator van het programma structureel over
 
 # Verbetervoorstellen
 
-Tijdens het schrijven van dit portfolio zag ik al een aantal zaken die in volgende iteraties aandacht verdienen.
+Tijdens het schrijven van dit portfolio ontdekte ik een aantal zaken die in volgende iteraties aandacht verdienen.
 
 Ik verwacht met name bij het onderdeel analyseren en evalueren nog mogelijkheden tot verbetering. Mijn indruk is dat bijvoorbeeld het LMS nog beter kan worden benut en interventies kunnen worden ingebouwd waarmee het gedrag van studenten gedurende het programma nauwkeuriger kan worden gevolgd. Op basis van deze gegevens kunnen kritische succesfactoren worden geïndentificeerd. Deze informatie kan worden gebruikt ter verbetering van didactiek en toetsing.
 
