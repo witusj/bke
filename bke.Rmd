@@ -182,7 +182,7 @@ knitr::include_graphics('images/rubric.png')
 
 ## Registreren en communiceren
 
-Zodra de docent zijn beoordeling heeft bewaard, krijgt de student een mailbericht van het LMS dat zijn werk is beoordeeld. Hij kan per leeruitkomst bekijken op welk niveau het bevonden is en de feedback lezen. Het LMS opent direct een nieuwe mogelijk tot inlevering, zodat de student zaken nogmaals zaken kan aanleveren ter beoordeling, mocht dit nodig zijn.
+Zodra de docent zijn beoordeling heeft bewaard, krijgt de student een mailbericht van het LMS dat zijn werk is beoordeeld. Hij kan per leeruitkomst bekijken op welk niveau het bevonden is en de feedback lezen. Het LMS opent direct een nieuwe mogelijk tot inlevering, zodat de student zaken nogmaals kan aanleveren ter beoordeling mocht dit nodig zijn.
 
 ## Analyseren en Evalueren
 
@@ -220,7 +220,7 @@ De uiteindelijke toetsmatrijs is voorgelegd aan de groep deelnemers van de Minor
 
 # Feedback
 
-Ik hoop dat je tijdens het lezen iets van inspiratie hebt gevonden en ben zeer benieuwd naar je mening of vragen. Mocht je iets met mij willen delen dan kan dit via het onderstaande formulier.
+Ik hoop dat je tijdens het lezen iets ter inspiratie bent tegenkomen en ben zeer benieuwd naar je mening of vragen. Mocht je iets met mij willen delen dan kan dit via het onderstaande formulier.
 
 <form
   action="https://formspree.io/xknbaeok"
