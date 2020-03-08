@@ -45,7 +45,7 @@ Competentie <- c("Herkennen / Analyseren / Diagnosticeren", "Communiceren", "Pro
 Leeruitkomst <- c("Student beschrijft de mate van volwassenheid van een organisatie m.b.t. Smart Industry in een business case", "Student communiceert op effectieve wijze zijn bevindingen naar verschillende doelgroepen", "Student werkt actief aan zijn professionele ontwikkeling")
 
 compDf <- data.frame(Competentie, Leeruitkomst)
-kable(compDf, align="l")
+kable(compDf, 'markdown', align="l")
 ```
 
 \pagebreak
@@ -105,7 +105,7 @@ Inhoud <- c("Volwassenheid organisatie", "Bevindingen", "Ontwikkeling")
 Context <- c("Smart Industry", "Verschillende doelgroepen", "Professioneel")
 
 leeruitkomstenDf <- data.frame(Leeruitkomst, Gedrag, Inhoud, Context)
-kable(leeruitkomstenDf, align="l")
+kable(leeruitkomstenDf, 'markdown', align="l")
 ```
 
 \pagebreak
@@ -135,7 +135,7 @@ SOLO <- c("Extended abstract", "Relational", "Multistructural", "Unistructural")
 
 leeruitkomstenDf <- data.frame(SmartStart, Bloom, SOLO)
 colnames(leeruitkomstenDf)[1] <- "Smart Start"
-kable(leeruitkomstenDf, align="l")
+kable(leeruitkomstenDf, 'markdown', align="l")
 ```
 
 De leeruitkomsten zijn uitgesplitst naar leeraspecten en per denkniveau zijn werkwoorden gebruikt om deze te beschrijven. De werkwoorden komen uit de twee taxonomieën (in sommige gevallen is gebruikt gemaakt van [aanvullende lijsten](https://www.apu.edu/live_data/files/333/blooms_taxonomy_action_verbs.pdf))
@@ -185,7 +185,6 @@ Het portfolio heeft de vorm van een webpagina. Studenten plaatsen een link naar 
 ```{r rubric, echo=FALSE, fig.align='center', fig.cap="Screenshot rubric op Moodle", out.width="60%", warning=FALSE}
 knitr::include_graphics('images/rubric.png')
 ```
-
 
 \pagebreak
 
