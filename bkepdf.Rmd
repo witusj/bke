@@ -22,12 +22,12 @@ library(knitr)
 
 # Inleiding
 
-De Minor Smart Industry (MSI) van de Hogeschool Arnhem en Nijmegen is een verbredende Minor. Studenten vanuit verschillende opleidingen verkennen nieuwe technologieën en leren hoe hiermee waarde kan worden gecreëerd. Tijdens het studietraject leren ze het belang van samenwerking, kennisdeling en continuous improvement voor het innovatievermogen van organisaties.
+De Minor Smart Industry (MSI) van de Hogeschool Arnhem en Nijmegen is een verbredende Minor en wordt sinds 2016/17 aangeboden. Studenten vanuit verschillende opleidingen verkennen nieuwe technologieën en leren hoe hiermee waarde kan worden gecreëerd. Tijdens het studietraject leren ze het belang van samenwerking, kennisdeling en continuous improvement voor het innovatievermogen van organisaties.
 
 Bij het thema Smart Industry spelen zaken als innovatie en disruptie een belangrijke rol. Dit houdt in dat omgang met onzekerheid, initiatief nemen en creatief vermogen succesfactoren zijn, zowel voor de individuele professional als de organisatie die Smart(er) wil worden. 
 
-```{r smartindustry, echo=FALSE, fig.align='center', fig.cap="Smart Industry model", warning=FALSE, out.width="40%"}
-include_graphics('images/smartindustry.jpg')
+```{r smartindustry, echo=FALSE, fig.align='center', fig.cap="Smart Industry model", out.width="40%", warning=FALSE}
+knitr::include_graphics('images/smartindustry.jpg')
 ```
 
 Het studieprogramma bestaat uit vijf onderdelen/modules:
@@ -38,35 +38,25 @@ Het studieprogramma bestaat uit vijf onderdelen/modules:
 * Smart Technology - Hardware
 * Project
 
-In dit portfolio zal de toetscyclus binnen Smart Start worden doorgenomen en besproken. Dit onderdeel heeft een aandeel van 20% in het gehele programma (6 ECTS / 168 SBU). Studenten moeten bewijzen dat ze zich op een set competenties hebben ontwikkeld d.m.v. een aantal leeruitkomsten.
+In dit portfolio zal de kwaliteit van de toetscyclus binnen Smart Start worden doorgenomen en besproken. Dit onderdeel heeft een aandeel van 20% in het gehele programma (6 ECTS / 168 SBU). Studenten moeten bewijzen dat ze zich op een set competenties hebben ontwikkeld d.m.v. een aantal leeruitkomsten.
 
-```{r echo=FALSE, fig.width=2}
+```{r echo=FALSE}
 Competentie <- c("Herkennen / Analyseren / Diagnosticeren", "Communiceren", "Professionaliseren")
 Leeruitkomst <- c("Student beschrijft de mate van volwassenheid van een organisatie m.b.t. Smart Industry in een business case", "Student communiceert op effectieve wijze zijn bevindingen naar verschillende doelgroepen", "Student werkt actief aan zijn professionele ontwikkeling")
 
 compDf <- data.frame(Competentie, Leeruitkomst)
-knitr::kable(compDf, align = "l", format = "markdown", padding = 2)
+kable(compDf, align="l")
 ```
 
 \pagebreak
 
 # Toetscyclus
 
-Om de kwaliteit van het toetsingsproces van Smart Start te beoordelen zijn alle stappen uit de toetscyclus doorgenomen en geanalyseerd.
-
-```{r toetscyclus, echo=FALSE, fig.align='center', fig.show='asis',fig.cap="Toetscyclus", out.width="40%", warning=FALSE}
-include_graphics('images/toetscyclus.png')
+```{r toetscyclus, echo=FALSE, fig.align='center', fig.cap="Toetscyclus", out.width="40%", warning=FALSE}
+knitr::include_graphics('images/toetscyclus.png')
 ```
 
-Daarbij zijn volgende zaken opgevallen:
-
-* Basisontwerp: ---
-* Toetsmatrijs: ---
-* Toetsconstructie en normering: ---
-* Afnemen: ---
-* Beoordelen, verwerken en analyseren: ---
-* Registreren en communiceren: ---
-* Evalueren
+Om de kwaliteit van het toetsingsproces van Smart Start te beoordelen zijn alle stappen uit de toetscyclus doorgenomen en geanalyseerd.
 
 \pagebreak
 
@@ -127,23 +117,20 @@ Nadat de leeruitkomsten zijn gedefinieerd, dient per leeruitkomst het verwachtte
 Om de verschillende cognitieve niveau's te kunnen onderscheiden zijn een aantal taxonomieën ontworpen. Hieronder worden er twee gepresenteerd, de herziene versie van Bloom [@krathwohl2009taxonomy] en het hiërarchisch systeem volgens SOLO [@biggs2014evaluating].
 
 
-```{r bloom, echo=FALSE, fig.align='center', fig.show='asis', fig.cap="Bloom's Taxonomie voor cognitieve leerniveau's", out.width="50%", warning=FALSE}
-include_graphics('images/bloom.jpg')
+```{r bloom, echo=FALSE, fig.align='center', fig.cap="Bloom's Taxonomie voor cognitieve leerniveau's", out.width="80%", warning=FALSE}
+knitr::include_graphics('images/bloom.jpg')
 ```
 
---------
 
-```{r solo, echo=FALSE, fig.align='center', fig.cap="Structure of the Observed Learning Outcome (SOLO) Taxonomie voor begripsniveau's", out.width="50%", warning=FALSE}
-include_graphics('images/solotaxonomy.png')
+```{r solo, echo=FALSE, fig.align='center', fig.cap="Structure of the Observed Learning Outcome (SOLO) Taxonomie voor begripsniveau's", out.width="80%", warning=FALSE}
+knitr::include_graphics('images/solotaxonomy.png')
 ```
-
-Beide systemen hanteren een hiërarchische orde van denken.
 
 Voor de module Smart Start hebben we een systeem ontworpen van vier denkniveau's. Deze niveau's kunnen worden terugvertaald naar bovenstaande taxonomieën:
 
 ```{r echo=FALSE}
 SmartStart <- c("Niveau 4", "Niveau 3", "Niveau 2", "Niveau 1")
-Bloom <- c("Evaluatie en Creatie", "Inzicht, Toepassing en Analyse", "Reproductie", "--")
+Bloom <- c("Evaluatie en Creatie", "Toepassing en Analyse", "Inzicht", "Reproductie")
 SOLO <- c("Extended abstract", "Relational", "Multistructural", "Unistructural")
 
 leeruitkomstenDf <- data.frame(SmartStart, Bloom, SOLO)
@@ -155,8 +142,8 @@ De leeruitkomsten zijn uitgesplitst naar leeraspecten en per denkniveau zijn wer
 
 Het resultaat is volgende toetsmatrijs. Het gestreefde eindniveau is aangegeven.
 
-```{r toetsmatrijs, echo=FALSE, fig.align='center', fig.show='asis', fig.cap="Toetsmatrijs Smart Start", out.width="80%", warning=FALSE}
-include_graphics('images/toetsmatrijs.png')
+```{r toetsmatrijs, echo=FALSE, fig.align='center', fig.cap="Toetsmatrijs Smart Start", out.width="100%", warning=FALSE}
+knitr::include_graphics('images/toetsmatrijs.png')
 ```
 
 \pagebreak
@@ -165,11 +152,11 @@ include_graphics('images/toetsmatrijs.png')
 
 Bij de Minor wordt sterk op gedrag gestuurd. Studenten krijgen alle ruimte om hun eigen leertraject te ontwerpen. Dit betekent dat ze ook mogen bepalen met welke bewijzen ze competenties en behaalde leerdoelen gaan aantonen. De afspraken hierover worden vastgelegd in een persoonlijke Smart Journey.
 
-```{r journey, echo=FALSE, fig.align='center', fig.cap="Template Smart Journey", out.width="40%", warning=FALSE}
-include_graphics('images/journey.png')
+```{r journey, echo=FALSE, fig.align='center', fig.cap="Template Smart Journey", out.width="80%", warning=FALSE}
+knitr::include_graphics('images/journey.png')
 ```
 
-Ook over de criteria en normering worden van te voren afspraken gemaakt. De docent bewaakt dat deze overeenkomen met het beoogde cognitieve niveau.
+Ook over de criteria en normering worden van te voren afspraken gemaakt.De docent bewaakt dat deze overeenkomen met het beoogde cognitieve niveau.
 
 \pagebreak
 
@@ -179,55 +166,69 @@ Studenten worden aangemoedigd om zo vaak mogelijk zaken ter beoordeling aan te b
 
 Uiteindelijk worden alle bewijzen verzameld in een persoonlijk portfolio. Een uitgebreid voorbeeld vind u [hier](https://minorsmart.github.io/personal-portfolio-coengoossens78/index.html).
 
-```{r portfolio, echo=FALSE, fig.align='center', fig.cap="Screenshot online portfolio", out.width="40%", warning=FALSE}
-include_graphics('images/portfolio.png')
+```{r portfolio, echo=FALSE, fig.align='center', fig.cap="Screenshot online portfolio", out.width="80%", warning=FALSE}
+knitr::include_graphics('images/portfolio.png')
 ```
 
 \pagebreak
 
-## Beoordelen, verwerken en analyseren
+## Beoordelen en verwerken
 
-Voor het inleveren van portfolios worden persoonlijke repositories ingericht in [Github Classroom](https://classroom.github.com/). Gedurende het lopende programma kunnen studenten hier vrij in werken. Na afsluiting van de Minor, gaat het beheer automatisch over naar de HAN en kunnen studenten geen aanpassingen meer doen.
+Voor het inleveren van portfolios worden persoonlijke repositories ingericht in [Github Classroom](https://classroom.github.com/). Gedurende het lopende programma kunnen studenten hier vrij in werken. Na afsluiting van de Minor, gaat het beheer automatisch over naar de opleiding en kunnen studenten geen aanpassingen meer doen.
 
-```{r classroom, echo=FALSE, fig.align='center', fig.cap="Screenshot Github Classroom", out.width="40%", warning=FALSE}
-include_graphics('images/classroom.png')
+```{r classroom, echo=FALSE, fig.align='center', fig.cap="Screenshot Github Classroom", out.width="80%", warning=FALSE}
+knitr::include_graphics('images/classroom.png')
 ```
 
-Rubric, Moodle Logs, Dataiku
+Het portfolio heeft de vorm van een webpagina. Studenten plaatsen een link naar de webpagina in een postbus op het Learning Management System (LMS) van de opleiding. Docenten kunnen het daar oppakken en kijken het werk na met behulp van een rubric. De rubric is rechtstreeks gekoppeld aan de toetsmatrijs en de niveau's zijn gekoppeld aan scores, waarbij een voldoende score pas start bij het streefniveau. Er is ruimte voor compensatie, echter de wegingen zijn zodanig dan een meerderheid van de leeruitkomsten op het gewenste niveau dient te zijn voor een voldoende.
+
+```{r rubric, echo=FALSE, fig.align='center', fig.cap="Screenshot rubric op Moodle", out.width="80%", warning=FALSE}
+knitr::include_graphics('images/rubric.png')
+```
+
 
 \pagebreak
 
-## Registreren en communiceren
+## Analyseren en Evalueren
 
-Inlevermodule Moodle
+Deze ronde van de Minor (semester 2 / collegejaar 2019/20) is de eerste maal dat bovenstaande toetsmatrijs zal worden toegepast.
 
-\pagebreak
+Omdat er tijdens het traject van continuous assessment regelmatig contact is, kan veel feedback worden opgehaald over de kwaliteit van toetsing. Tevens is er voortdurend contact met de docenten van de overige modules (Business, Connection en Technology), die op dezelfde wijze toetsen.
 
-## Evalueren
+Daarnaast worden studenten aangespoord om de periodieke kwaliteitssurvey's in te vullen. Hierin is een vraag opgenomen betreffende de toetsing.
 
-Kwaliteitssurveys
+```{r survey, echo=FALSE, fig.align='center', fig.cap="Screenshot Eindsurvey MSI", out.width="80%", warning=FALSE}
+knitr::include_graphics('images/survey.png')
+```
+
+Gedurende de Minor wordt door de coördinator van het programma structureel overleg ingepland om de kwaliteit van het onderwijs en toetsing te bespreken. Alle verzamelde data wordt geanalyseerd en besproken.
 
 \pagebreak
 
 # Verbetervoorstellen
 
-Tekst
+Tijdens het schrijven van dit portfolio ontdekte ik een aantal zaken die in volgende iteraties aandacht verdienen.
+
+Ik verwacht met name bij het onderdeel analyseren en evalueren nog mogelijkheden tot verbetering. Mijn indruk is dat bijvoorbeeld het LMS nog beter kan worden benut en interventies kunnen worden ingebouwd waarmee het gedrag van studenten gedurende het programma nauwkeuriger kan worden gevolgd. Op basis van deze gegevens kunnen kritische succesfactoren worden geïndentificeerd. Deze informatie kan worden gebruikt ter verbetering van didactiek en toetsing.
+
+Een ander aspect kwam tijdens de bespreking met de studenten naar voren. De vraag werd gesteld of voor de overige onderdelen soortgelijke toetsmatrijzen bestonden. Dit is nog niet het geval. Het lijkt me zeer belangrijk om met het onderwijzend team naar de toetscyclus te kijken en een aantal volgende verbeterstappen te maken.
+
+Het voordeel hierbij is, dat we met continuous assessment in veel kortere tijd PDCA-iteraties kunnen doorlopen. Voor een optimale werking is het echter belangrijk dat op het gebied van toetsing eerst een formeel kwaliteitssyteem wordt afgesproken en dat aandachtspunten en verbeteringen centraal worden gedeeld.
 
 \pagebreak
 
 # Persoonlijke reflectie
 
+Bij het ontwerp van de Minor is aan het begin veel aandacht besteed aan toetsing en gedurende de jaren daarna hebben continue (kleine) aanpassingen plaatsgevonden. Er was echter nooit voldoende tijd voor een gedegen reflectie. Daarom was ik blij met deze gelegenheid en heb ik de exercitie als zeer nuttig ervaren.
 
-Tekst
+Ik het gevoel dat op een aantal aspecten een wezenlijke kwaliteitsslag is gemaakt. Als eerste was het goed om de vraag te stellen om welke redenen er gekozen is voor continuous assessment en of deze redenen nog steeds valide zijn. Door in de literatuur op zoek te gaan naar legitieme argumenten en deze kritisch te vergelijken met de didactische visie, kreeg ik een scherper beeld van de doelstellingen van ons programma.
+
+Vervolgens was het relatief makkelijk om voor de afzonderlijke leeruitkomsten de bijbehorende cognitieve niveau's te kiezen. De aanwijzingen uit de verschillende taxonomieën waren zeer waardevol bij de formulering van de criteria.
+
+De uiteindelijke toetsmatrijs is voorgelegd aan de groep deelnemers van de Minor. De reacties waren zeer positief. Studenten gaven aan dat ze hiermee goed konden werken en een veel beter beeld hadden van de verwachtte kwaliteit van het op te leveren werk.
 
 \pagebreak
 
 # Bibliografie
 
 <div id="refs"></div>
-
-# (APPENDIX) Bijlagen {-} 
-
-# Voorbeeld 1
-
-# Voorbeeld 2
