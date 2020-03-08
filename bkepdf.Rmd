@@ -26,7 +26,7 @@ De Minor Smart Industry (MSI) van de Hogeschool Arnhem en Nijmegen is een verbre
 
 Bij het thema Smart Industry spelen zaken als innovatie en disruptie een belangrijke rol. Dit houdt in dat omgang met onzekerheid, initiatief nemen en creatief vermogen succesfactoren zijn, zowel voor de individuele professional als de organisatie die Smart(er) wil worden. 
 
-```{r smartindustry, echo=FALSE, fig.align='center', fig.cap="Smart Industry model", out.width="40%", warning=FALSE}
+```{r smartindustry, echo=FALSE, fig.align='center', fig.cap="Smart Industry model", out.width="30%", warning=FALSE}
 knitr::include_graphics('images/smartindustry.jpg')
 ```
 
@@ -117,12 +117,12 @@ Nadat de leeruitkomsten zijn gedefinieerd, dient per leeruitkomst het verwachtte
 Om de verschillende cognitieve niveau's te kunnen onderscheiden zijn een aantal taxonomieën ontworpen. Hieronder worden er twee gepresenteerd, de herziene versie van Bloom [@krathwohl2009taxonomy] en het hiërarchisch systeem volgens SOLO [@biggs2014evaluating].
 
 
-```{r bloom, echo=FALSE, fig.align='center', fig.cap="Bloom's Taxonomie voor cognitieve leerniveau's", out.width="80%", warning=FALSE}
+```{r bloom, echo=FALSE, fig.align='center', fig.cap="Bloom's Taxonomie voor cognitieve leerniveau's", out.width="50%", warning=FALSE}
 knitr::include_graphics('images/bloom.jpg')
 ```
 
 
-```{r solo, echo=FALSE, fig.align='center', fig.cap="Structure of the Observed Learning Outcome (SOLO) Taxonomie voor begripsniveau's", out.width="80%", warning=FALSE}
+```{r solo, echo=FALSE, fig.align='center', fig.cap="Structure of the Observed Learning Outcome (SOLO) Taxonomie voor begripsniveau's", out.width="50%", warning=FALSE}
 knitr::include_graphics('images/solotaxonomy.png')
 ```
 
@@ -142,7 +142,7 @@ De leeruitkomsten zijn uitgesplitst naar leeraspecten en per denkniveau zijn wer
 
 Het resultaat is volgende toetsmatrijs. Het gestreefde eindniveau is aangegeven.
 
-```{r toetsmatrijs, echo=FALSE, fig.align='center', fig.cap="Toetsmatrijs Smart Start", out.width="100%", warning=FALSE}
+```{r toetsmatrijs, echo=FALSE, fig.align='center', fig.cap="Toetsmatrijs Smart Start", out.width="70%", warning=FALSE}
 knitr::include_graphics('images/toetsmatrijs.png')
 ```
 
@@ -152,7 +152,7 @@ knitr::include_graphics('images/toetsmatrijs.png')
 
 Bij de Minor wordt sterk op gedrag gestuurd. Studenten krijgen alle ruimte om hun eigen leertraject te ontwerpen. Dit betekent dat ze ook mogen bepalen met welke bewijzen ze competenties en behaalde leerdoelen gaan aantonen. De afspraken hierover worden vastgelegd in een persoonlijke Smart Journey.
 
-```{r journey, echo=FALSE, fig.align='center', fig.cap="Template Smart Journey", out.width="80%", warning=FALSE}
+```{r journey, echo=FALSE, fig.align='center', fig.cap="Template Smart Journey", out.width="40%", warning=FALSE}
 knitr::include_graphics('images/journey.png')
 ```
 
@@ -166,7 +166,7 @@ Studenten worden aangemoedigd om zo vaak mogelijk zaken ter beoordeling aan te b
 
 Uiteindelijk worden alle bewijzen verzameld in een persoonlijk portfolio. Een uitgebreid voorbeeld vind u [hier](https://minorsmart.github.io/personal-portfolio-coengoossens78/index.html).
 
-```{r portfolio, echo=FALSE, fig.align='center', fig.cap="Screenshot online portfolio", out.width="80%", warning=FALSE}
+```{r portfolio, echo=FALSE, fig.align='center', fig.cap="Screenshot online portfolio", out.width="60%", warning=FALSE}
 knitr::include_graphics('images/portfolio.png')
 ```
 
@@ -176,13 +176,13 @@ knitr::include_graphics('images/portfolio.png')
 
 Voor het inleveren van portfolios worden persoonlijke repositories ingericht in [Github Classroom](https://classroom.github.com/). Gedurende het lopende programma kunnen studenten hier vrij in werken. Na afsluiting van de Minor, gaat het beheer automatisch over naar de opleiding en kunnen studenten geen aanpassingen meer doen.
 
-```{r classroom, echo=FALSE, fig.align='center', fig.cap="Screenshot Github Classroom", out.width="80%", warning=FALSE}
+```{r classroom, echo=FALSE, fig.align='center', fig.cap="Screenshot Github Classroom", out.width="60%", warning=FALSE}
 knitr::include_graphics('images/classroom.png')
 ```
 
 Het portfolio heeft de vorm van een webpagina. Studenten plaatsen een link naar de webpagina in een postbus op het Learning Management System (LMS) van de opleiding. Docenten kunnen het daar oppakken en kijken het werk na met behulp van een rubric. De rubric is rechtstreeks gekoppeld aan de toetsmatrijs en de niveau's zijn gekoppeld aan scores, waarbij een voldoende score pas start bij het streefniveau. Er is ruimte voor compensatie, echter de wegingen zijn zodanig dan een meerderheid van de leeruitkomsten op het gewenste niveau dient te zijn voor een voldoende.
 
-```{r rubric, echo=FALSE, fig.align='center', fig.cap="Screenshot rubric op Moodle", out.width="80%", warning=FALSE}
+```{r rubric, echo=FALSE, fig.align='center', fig.cap="Screenshot rubric op Moodle", out.width="60%", warning=FALSE}
 knitr::include_graphics('images/rubric.png')
 ```
 
@@ -197,7 +197,7 @@ Omdat er tijdens het traject van continuous assessment regelmatig contact is, ka
 
 Daarnaast worden studenten aangespoord om de periodieke kwaliteitssurvey's in te vullen. Hierin is een vraag opgenomen betreffende de toetsing.
 
-```{r survey, echo=FALSE, fig.align='center', fig.cap="Screenshot Eindsurvey MSI", out.width="80%", warning=FALSE}
+```{r survey, echo=FALSE, fig.align='center', fig.cap="Screenshot Eindsurvey MSI", out.width="60%", warning=FALSE}
 knitr::include_graphics('images/survey.png')
 ```
 
