@@ -55,22 +55,13 @@ compDf <- data.frame(Competentie, Leeruitkomst)
 formattable(compDf, align="l")
 ```
 
-
 # Toetscyclus
 
 ```{r toetscyclus, echo=FALSE, fig.align='center', fig.cap="Toetscyclus", out.width="40%", warning=FALSE}
 knitr::include_graphics('images/toetscyclus.png')
 ```
 
-Om de kwaliteit van het toetsingsproces van Smart Start te beoordelen zijn alle stappen uit de toetscyclus doorgenomen en geanalyseerd. Daarbij zijn volgende zaken opgevallen:
-
-* Basisontwerp: ---
-* Toetsmatrijs: ---
-* Toetsconstructie en normering: ---
-* Afnemen: ---
-* Beoordelen, verwerken en analyseren: ---
-* Registreren en communiceren: ---
-* Evalueren
+Om de kwaliteit van het toetsingsproces van Smart Start te beoordelen zijn alle stappen uit de toetscyclus doorgenomen en geanalyseerd.
 
 ## Basisontwerp
 
@@ -201,17 +192,49 @@ Omdat er tijdens het traject van continuous assessment regelmatig contact is, ka
 
 Daarnaast worden studenten aangespoord om de periodieke kwaliteitssurvey's in te vullen. Hierin is een vraag opgenomen betreffende de toetsing.
 
-<<Overzicht kwaliteitsvragen toetscyclus>>
+```{r survey, echo=FALSE, fig.align='center', fig.cap="Screenshot Eindsurvey MSI", out.width="80%", warning=FALSE}
+knitr::include_graphics('images/survey.png')
+```
 
 Gedurende de Minor wordt door de coördinator van het programma structureel overleg ingepland om de kwaliteit van het onderwijs en toetsing te bespreken. Alle verzamelde data wordt geanalyseerd en besproken.
 
 # Verbetervoorstellen
 
-Tekst
+Tijdens het schrijven van dit portfolio zag ik al een aantal zaken die in een volgende iteratie aandacht verdienen.
+
+Ik verwacht met name bij het onderdeel analyseren en evalueren nog mogelijkheden tot verbetering. Mijn indruk is dat het LMS nog beter kan worden ingezet en interventies kunnen worden ingebouwd waarmee het gedrag van studenten gedurende het programma nauwkeuriger kan worden gevolgd. Op basis van deze gegevens kunnen kritische succesfactoren worden geïndentificeerd. Deze informatie kan worden gebruikt ter verbetering van didactiek en toetsing.
+
+Een ander aspect kwam tijdens de bespreking met de studenten naar voren. De vraag werd gesteld of voor de overige onderdelen soortgelijke toetsmatrijzen bestonden. Dit is nog niet het geval. Het lijkt me zeer belangrijk om met het onderwijzend team naar de toetscyclus te kijken en een aantal volgende verbeterstappen te maken.
 
 # Persoonlijke reflectie
 
-Tekst
+Bij het ontwerp van de Minor is aan het begin veel aandacht besteed aan toetsing en gedurende de jaren daarna hebben continue (kleine) aanpassingen plaatsgevonden. Er was echter nooit voldoende tijd voor een gedegen reflectie. Daarom was ik blij met deze gelegenheid en heb ik de exercitie als zeer nuttig ervaren.
+
+Ik het gevoel dat op een aantal aspecten een wezenlijke kwaliteitsslag is gemaakt. Als eerste was het goed om de vraag te stellen om welke redenen er gekozen is voor continuous assessment en of deze redenen nog steeds valide zijn. Door in de literatuur op zoek te gaan naar legitieme argumenten en deze kritisch te vergelijken met de didactische visie, kreeg ik een scherper beeld van de doelstellingen van ons programma.
+
+Vervolgens was het relatief makkelijk om voor de afzonderlijke leeruitkomsten de bijbehorende cognitieve niveau's te kiezen. De aanwijzingen uit de verschillende taxonomieën waren zeer waardevol bij de formulering van de criteria.
+
+De uiteindelijke toetsmatrijs is voorgelegd aan de groep deelnemers van de Minor. De reacties waren zeer positief. Studenten gaven aan dat ze hiermee goed konden werken en een veel beter beeld hadden van de verwachtte kwaliteit van het op te leveren werk.
+
+# Feedback
+
+Ik hoop dat je tijdens het lezen iets van inspiratie hebt gevonden en ben zeer benieuwd naar je mening of vragen. Mocht je iets met mij willen delen dan kan dit via het onderstaande formulier.
+
+<form
+  action="https://formspree.io/xknbaeok"
+  method="POST"
+>
+  <label>
+    Naam:
+    <input type="text" name="name" placeholder="Naam">
+  </label>
+  <label>
+    Bericht:
+    <textarea name="message" placeholder="Plaats hier opmerkingen of vragen ...."></textarea>
+  </label>
+
+  <button type="submit">Send</button>
+</form>
 
 # Bibliografie
 

@@ -5,18 +5,24 @@
   text-align: justify;
 }
 
-table.tableizer-table {
-		font-size: 12px;
-		border: 1px solid #CCC; 
-		font-family: Arial, Helvetica, sans-serif;
-	} 
-	.tableizer-table td {
-		padding: 4px;
-		margin: 3px;
-		border: 1px solid #CCC;
-	}
-	.tableizer-table th {
-		background-color: #104E8B; 
-		color: #FFF;
-		font-weight: bold;
-	}
+input[type=text], textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
