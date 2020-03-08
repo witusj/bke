@@ -240,8 +240,8 @@ Ik hoop dat je tijdens het lezen iets van inspiratie hebt gevonden en ben zeer b
 
 <div id="refs"></div>
 
-# (APPENDIX) Bijlagen {-} 
+<!-- # (APPENDIX) Bijlagen {-}  -->
 
-# Voorbeeld 1
+<!-- # Voorbeeld 1 -->
 
-# Voorbeeld 2
+<!-- # Voorbeeld 2 -->
