@@ -45,7 +45,7 @@ Het studieprogramma bestaat uit vijf onderdelen/modules:
 * Smart Technology - Hardware
 * Project
 
-In dit portfolio zal de kwaliteit van de toetscyclus binnen Smart Start worden doorgenomen en besproken. Dit onderdeel heeft een aandeel van 20% in het gehele programma (6 ECTS / 168 SBU). Studenten moeten bewijzen dat ze zich op een set competenties hebben ontwikkeld d.m.v. een aantal leeruitkomsten.
+In dit portfolio zal de kwaliteit van de toetscyclus binnen Smart Start worden doorgenomen en worden besproken hoe deze tot stand is gekomen. Dit onderdeel heeft een aandeel van 20% in het gehele programma (6 ECTS / 168 SBU). Studenten moeten bewijzen dat ze zich op een set competenties hebben ontwikkeld d.m.v. een aantal leeruitkomsten.
 
 ```{r echo=FALSE}
 Competentie <- c("Herkennen / Analyseren / Diagnosticeren", "Communiceren", "Professionaliseren")
@@ -54,6 +54,8 @@ Leeruitkomst <- c("Student beschrijft de mate van volwassenheid van een organisa
 compDf <- data.frame(Competentie, Leeruitkomst)
 formattable(compDf, align="l")
 ```
+
+In de hoofdstukken drie en vier wordt een reflectie gegeven op het ontwerp en worden verbeterpunten besproken die in een volgende iteratie kunnen worden verwerkt.
 
 # Toetscyclus
 
@@ -153,10 +155,9 @@ Bij de Minor wordt sterk op gedrag gestuurd. Studenten krijgen alle ruimte om hu
 knitr::include_graphics('images/journey.png')
 ```
 
-Ook over de criteria en normering worden van te voren afspraken gemaakt.De docent bewaakt dat deze overeenkomen met het beoogde cognitieve niveau.
+Ook over de criteria en normering worden van te voren afspraken gemaakt.De docent bewaakt tijdens intervisiemomenten dat deze overeenkomen met het beoogde cognitieve niveau.
 
 ## Afnemen
-
 Studenten worden aangemoedigd om zo vaak mogelijk zaken ter beoordeling aan te bieden, niet alleen bij docenten, maar ook bij medestudenten en externen (bijvoorbeeld opdrachtgevers). De reden hiervoor is dat we de individuele student ruimschoots gelegenheid willen bieden om zijn eigen fouten te maken en hiervan te leren.
 
 Uiteindelijk worden alle bewijzen verzameld in een persoonlijk portfolio. Een uitgebreid voorbeeld vind u [hier](https://minorsmart.github.io/personal-portfolio-coengoossens78/index.html).
@@ -166,7 +167,6 @@ knitr::include_graphics('images/portfolio.png')
 ```
 
 ## Beoordelen en verwerken
-
 Voor het inleveren van portfolios worden persoonlijke repositories ingericht in [Github Classroom](https://classroom.github.com/). Gedurende het lopende programma kunnen studenten hier vrij in werken. Na afsluiting van de Minor, gaat het beheer automatisch over naar de opleiding en kunnen studenten geen aanpassingen meer doen.
 
 ```{r classroom, echo=FALSE, fig.align='center', fig.cap="Screenshot Github Classroom", out.width="80%", warning=FALSE}
@@ -180,11 +180,9 @@ knitr::include_graphics('images/rubric.png')
 ```
 
 ## Registreren en communiceren
-
 Zodra de docent zijn beoordeling heeft bewaard, krijgt de student een mailbericht van het LMS dat zijn werk is beoordeeld. Hij kan per leeruitkomst bekijken op welk niveau het bevonden is en de feedback lezen. Het LMS opent direct een nieuwe mogelijk tot inlevering, zodat de student zaken nogmaals kan aanleveren ter beoordeling mocht dit nodig zijn.
 
 ## Analyseren en Evalueren
-
 Deze ronde van de Minor (semester 2 / collegejaar 2019/20) is de eerste maal dat bovenstaande toetsmatrijs zal worden toegepast.
 
 Omdat er tijdens het traject van continuous assessment regelmatig contact is, kan veel feedback worden opgehaald over de kwaliteit van toetsing. Tevens is er voortdurend contact met de docenten van de overige modules (Business, Connection en Technology), die op dezelfde wijze toetsen.
@@ -198,17 +196,45 @@ knitr::include_graphics('images/survey.png')
 Gedurende de Minor wordt door de coördinator van het programma structureel overleg ingepland om de kwaliteit van het onderwijs en toetsing te bespreken. Alle verzamelde data wordt geanalyseerd en besproken.
 
 # Verbetervoorstellen
+Tijdens het schrijven van dit portfolio en uitvoering van het programma ontdekte ik een aantal zaken die in volgende iteraties aandacht verdienen. De Minor werkt intensief samen met organisaties die bezig zijn met Smart Industry. Een aantal van deze business partners zijn actief betrokken geweest bij het ontwerp en opzet van de Minor. Gaandeweg zijn er organisaties bijgekomen. Na vijf jaar is het tijd om samen te reflecteren en zaken opnieuw te ijken. Bij deze gelegenheid dient de toetscyclus mee te worden genomen.
 
-Tijdens het schrijven van dit portfolio ontdekte ik een aantal zaken die in volgende iteraties aandacht verdienen.
+## Basisontwerp
+De leeruitkomsten dienen regelmatig te worden gecontroleerd op relevantie. Zijn ze goed geformuleerd? Is de verzameling volledig en sluit deze nog goed aan op de praktijk? Is de wijze waarop we de leeruitkomsten meten nog steeds optimaal?
 
-Ik verwacht met name bij het onderdeel analyseren en evalueren nog mogelijkheden tot verbetering. Mijn indruk is dat bijvoorbeeld het LMS nog beter kan worden benut en interventies kunnen worden ingebouwd waarmee het gedrag van studenten gedurende het programma nauwkeuriger kan worden gevolgd. Op basis van deze gegevens kunnen kritische succesfactoren worden geïndentificeerd. Deze informatie kan worden gebruikt ter verbetering van didactiek en toetsing.
+Persoonlijk denk ik dat de bij de leeruitkomsten gebruikte taxonomieën dienen te worden aangescherpt. Bijvoorbeeld sluit de term "beschrijven" niet goed aan bij het gewenste minimale cognitieve niveau van toepassing en analyse. Dit kan worden meegenomen als een nieuwe set leeruitkomsten zal worden samengesteld. 
 
-Een ander aspect kwam tijdens de bespreking met de studenten naar voren. De vraag werd gesteld of voor de overige onderdelen soortgelijke toetsmatrijzen bestonden. Dit is nog niet het geval. Het lijkt me zeer belangrijk om met het onderwijzend team naar de toetscyclus te kijken en een aantal volgende verbeterstappen te maken.
+## Toetsmatrijs
+Als de nieuwe leeruitkomsten geformuleerd zijn, kunnen alle cellen van de toetsmatrijs weer opnieuw worden gevuld met leeraspecten. Ik verwacht niet dat er grote aanpassingen moeten worden gedaan het gewenste cognitieve eindniveau.
 
-Het voordeel hierbij is, dat we met continuous assessment in veel kortere tijd PDCA-iteraties kunnen doorlopen. Voor een optimale werking is het echter belangrijk dat op het gebied van toetsing eerst een formeel kwaliteitssyteem wordt afgesproken en dat aandachtspunten en verbeteringen centraal worden gedeeld.
+Tijdens de bespreking van de toetsmatrijs voor Smart Start met studenten werd de vraag gesteld of voor de overige onderdelen soortgelijke toetsmatrijzen bestonden. Dit is nog niet het geval. Het lijkt me zeer belangrijk om met het onderwijzend team naar de toetscyclus te kijken en een aantal volgende verbeterstappen te maken.
+
+## Toetsconstructie en normering
+De inzet van een Student Journey Map is nieuw. Het instrument is succesvol als het studenten heeft geholpen de leeruitkomsten te bereiken.
+
+De reacties van deelnemers aan de Minor tot nu toe zijn unaniem positief. Het instrument biedt in combinatie met de toetsmatrijs een duidelijk kader, maar is aan de andere kant niet rigide en geeft heel veel ruimte voor autonomie en individuele ambities.
+
+Tijdens intervisies wordt de Journey Map heel vaak als een soort 'praatplaat' gebruikt. Deelnemers kunnen hiermee gemakkelijk aanwijzen over welke aspecten ze het willen hebben en kunnen heel specifiek aangeven waar ze ondersteuning bij nodig hebben.
+
+Als docent merk ik dat ik het een fijn medium vind om te kunnen onderscheiden wanneer een student zichzelf echt uitdaagt. Vooral in het begin van het programma observeer ik een beweging bij studenten om dichtbij het bekende te blijven. Deze drang naar veiligheid is volledig natuurlijk. Het heeft ook zijn functie, maar niet in dit specifieke leerproces.
+
+Door bij sommige activiteiten door te vragen en aan te moedigen, kan met kleine stapjes een leerbeweging ontstaan. Een belangrijk kwaliteitsaspect is dat de Journey veel verbeteriteraties bevat, zodat een student leert dat falen en reflectie een beter leerrendement genereren dan hetzelfde doen en bevestiging zoeken. Hierop wil ik meer gaan letten.
+
+## Toetsen
+Het is de bedoeling dat tijdens met het opstellen van een persoonlijke Student Journey ook de momenten van bewijslevering worden aangegeven en welke vorm dit bewijs heeft. Het zou voor zowel de student als de docenten goed zijn als deze bewijzen direct in het portfolio worden verwerkt samen met ontvangen feedback en eigen reflectie. Dit zit nog te weinig in het systeem. In de backlog voor een volgende kwaliteitsverbetering dienen nudges worden opgenomen die het proces van continuous assessment en reflectie bevorderen.
+
+## Beoordelen en verwerken
+Het systeem voor verzameling van bewijslast (portfolio op Github) en beoordeling en verwerking (rubric) is voor het grootste deel gestandariseerd en geautomatiseerd en behoeft geen acute aandacht.
+
+
+## Registreren en communiceren
+Het proces van registratie en communicatie vindt automatisch plaats nadat de beoordeling is afgerond. Bij de verwerking van de resultaten krijgen studenten automatisch een bericht en indien van toepassing een nieuwe kans.
+
+## Analyseren en evalueren
+Het LMS kan nog beter kan worden benut als hulpmiddel bij het analyseren en evalueren van het onderwijsprogramma en de toetscyclus. dit geldt voor het hele programma van de Minor en niet alleen voor het onderdeel Smart Start.
+
+Er kunnen meer interventies worden ingebouwd waarmee het gedrag van studenten gedurende het programma nauwkeuriger kan worden gevolgd. De uitkomsten van de interventies vormen een dataset, waarmee de kwaliteit van het onderwijs- en toetsproces kan worden geanalyseerd (bijvoorbeeld m.b.v. [Process Mining](https://en.wikipedia.org/wiki/Process_mining)). Deze informatie kan worden gebruikt ter verbetering van didactiek en toetsing. Voor een optimale werking is het echter belangrijk dat op het gebied van toetsing eerst een formeel kwaliteitssyteem wordt afgesproken en dat aandachtspunten en verbeteringen centraal worden gedeeld.
 
 # Persoonlijke reflectie
-
 Bij het ontwerp van de Minor is aan het begin veel aandacht besteed aan toetsing en gedurende de jaren daarna hebben continue (kleine) aanpassingen plaatsgevonden. Er was echter nooit voldoende tijd voor een gedegen reflectie. Daarom was ik blij met deze gelegenheid en heb ik de exercitie als zeer nuttig ervaren.
 
 Ik het gevoel dat op een aantal aspecten een wezenlijke kwaliteitsslag is gemaakt. Als eerste was het goed om de vraag te stellen om welke redenen er gekozen is voor continuous assessment en of deze redenen nog steeds valide zijn. Door in de literatuur op zoek te gaan naar legitieme argumenten en deze kritisch te vergelijken met de didactische visie, kreeg ik een scherper beeld van de doelstellingen van ons programma.
