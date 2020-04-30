@@ -2,7 +2,7 @@
 title: "BKE Portfolio"
 author: "Witek ten Hove"
 date: "28 Februari 2020"
-description: "This book introduces the ABC theory, and ..."
+description: "Dit is de PDF versie van het online boek op: https://witusj.github.io/bke/inleiding.html"
 bibliography: ["lit.bib"]
 biblio-style: "apalike"
 link-citations: true
@@ -21,7 +21,6 @@ library(knitr)
 ```
 
 # Inleiding
-
 De Minor Smart Industry (MSI) van de Hogeschool Arnhem en Nijmegen is een verbredende Minor en wordt sinds 2016/17 aangeboden. Studenten vanuit verschillende opleidingen verkennen nieuwe technologieën en leren hoe hiermee waarde kan worden gecreëerd. Tijdens het studietraject leren ze het belang van samenwerking, kennisdeling en continuous improvement voor het innovatievermogen van organisaties.
 
 Bij het thema Smart Industry spelen zaken als innovatie en disruptie een belangrijke rol. Dit houdt in dat omgang met onzekerheid, initiatief nemen en creatief vermogen succesfactoren zijn, zowel voor de individuele professional als de organisatie die Smart(er) wil worden. 
@@ -48,7 +47,15 @@ compDf <- data.frame(Competentie, Leeruitkomst)
 kable(compDf, 'markdown', align="l")
 ```
 
-In de hoofdstukken drie en vier wordt een reflectie gegeven op het ontwerp en worden verbeterpunten besproken die in een volgende iteratie kunnen worden verwerkt.
+In hoofdstuk drie wordt een reflectie gegeven op het ontwerp en worden verbeterpunten besproken die in een volgende iteratie kunnen worden verwerkt. Het laatste hoofdstuk is mijn persoonlijke beschouwing van deze exercitie, die ik als zeer waardevol heb ervaren.
+
+---
+
+**Let op:** U leest de PDF-versie en kopie van het online document op:
+
+https://witusj.github.io/bke/inleiding.html.
+
+Het online document bevat koppelingen naar aanvullend materiaal, deze kunnen helaas niet in de PDF-versie worden weergegeven.
 
 \pagebreak
 
@@ -212,10 +219,10 @@ Tijdens het schrijven van dit portfolio en uitvoering van het programma ontdekte
 ## Basisontwerp
 De leeruitkomsten dienen regelmatig te worden gecontroleerd op relevantie. Zijn ze goed geformuleerd? Is de verzameling volledig en sluit deze nog goed aan op de praktijk? Is de wijze waarop we de leeruitkomsten meten nog steeds optimaal?
 
-Persoonlijk denk ik dat de bij de leeruitkomsten gebruikte taxonomieën dienen te worden aangescherpt. Bijvoorbeeld sluit de term "beschrijven" niet goed aan bij het gewenste minimale cognitieve niveau van toepassing en analyse. Dit kan worden meegenomen als een nieuwe set leeruitkomsten zal worden samengesteld. 
+Persoonlijk vermoed ik dat de bij de leeruitkomsten gebruikte taxonomieën dienen te worden aangescherpt. Bijvoorbeeld sluit de term "beschrijven" niet goed aan bij het gewenste minimale cognitieve niveau van toepassing en analyse. Dit kan worden meegenomen als een nieuwe set leeruitkomsten zal worden samengesteld. 
 
 ## Toetsmatrijs
-Als de nieuwe leeruitkomsten geformuleerd zijn, kunnen alle cellen van de toetsmatrijs weer opnieuw worden gevuld met leeraspecten. Ik verwacht niet dat er grote aanpassingen moeten worden gedaan het gewenste cognitieve eindniveau.
+Als de nieuwe leeruitkomsten geformuleerd zijn, kunnen alle cellen van de toetsmatrijs weer opnieuw worden gevuld met leeraspecten. Ik verwacht niet dat er grote aanpassingen moeten worden gedaan aan het gewenste cognitieve eindniveau.
 
 Tijdens de bespreking van de toetsmatrijs voor Smart Start met studenten werd de vraag gesteld of voor de overige onderdelen soortgelijke toetsmatrijzen bestonden. Dit is nog niet het geval. Het lijkt me zeer belangrijk om met het onderwijzend team naar de toetscyclus te kijken en een aantal volgende verbeterstappen te maken.
 
@@ -231,19 +238,19 @@ Als docent merk ik dat ik het een fijn medium vind om te kunnen onderscheiden wa
 Door bij sommige activiteiten door te vragen en aan te moedigen, kan met kleine stapjes een leerbeweging ontstaan. Een belangrijk kwaliteitsaspect is dat de Journey veel verbeteriteraties bevat, zodat een student leert dat falen en reflectie een beter leerrendement genereren dan hetzelfde doen en bevestiging zoeken. Hierop wil ik meer gaan letten.
 
 ## Toetsen
-Het is de bedoeling dat tijdens met het opstellen van een persoonlijke Student Journey ook de momenten van bewijslevering worden aangegeven en welke vorm dit bewijs heeft. Het zou voor zowel de student als de docenten goed zijn als deze bewijzen direct in het portfolio worden verwerkt samen met ontvangen feedback en eigen reflectie. Dit zit nog te weinig in het systeem. In de backlog voor een volgende kwaliteitsverbetering dienen nudges worden opgenomen die het proces van continuous assessment en reflectie bevorderen.
+Het is de bedoeling dat met het opstellen van een persoonlijke Student Journey ook de momenten van bewijslevering en vorm van het bewijs worden aangegeven. Het zou voor zowel de student als de docenten goed zijn als deze bewijzen direct in het portfolio worden verwerkt samen met ontvangen feedback en eigen reflectie. Dit zit nog te weinig in het systeem. In de backlog voor een volgende kwaliteitsverbetering dienen nudges worden opgenomen die het proces van continuous assessment en reflectie bevorderen.
 
 ## Beoordelen en verwerken
 Het systeem voor verzameling van bewijslast (portfolio op Github) en beoordeling en verwerking (rubric) is voor het grootste deel gestandariseerd en geautomatiseerd en behoeft geen acute aandacht.
 
 
 ## Registreren en communiceren
-Het proces van registratie en communicatie vindt automatisch plaats nadat de beoordeling is afgerond. Bij de verwerking van de resultaten krijgen studenten automatisch een bericht en indien van toepassing een nieuwe kans.
+Hetzelfde geldt voor het proces van registratie en communicatie. Deze vindt automatisch plaats nadat de beoordeling is afgerond. Bij de verwerking van de resultaten krijgen studenten automatisch een bericht en indien van toepassing een nieuwe kans.
 
 ## Analyseren en evalueren
 Het LMS kan nog beter kan worden benut als hulpmiddel bij het analyseren en evalueren van het onderwijsprogramma en de toetscyclus. dit geldt voor het hele programma van de Minor en niet alleen voor het onderdeel Smart Start.
 
-Er kunnen meer interventies worden ingebouwd waarmee het gedrag van studenten gedurende het programma nauwkeuriger kan worden gevolgd. De uitkomsten van de interventies vormen een dataset, waarmee de kwaliteit van het onderwijs- en toetsproces kan worden geanalyseerd (bijvoorbeeld m.b.v. [Process Mining](https://en.wikipedia.org/wiki/Process_mining)). Deze informatie kan worden gebruikt ter verbetering van didactiek en toetsing. Voor een optimale werking is het echter belangrijk dat op het gebied van toetsing eerst een formeel kwaliteitssyteem wordt afgesproken en dat aandachtspunten en verbeteringen centraal worden gedeeld.
+Er kunnen meer interventies worden ingebouwd waarmee het gedrag van studenten gedurende het programma nauwkeuriger kan worden gevolgd. De uitkomsten van de interventies vormen een dataset, waarmee de kwaliteit van het onderwijs- en toetsproces kan worden geanalyseerd (bijvoorbeeld m.b.v. [Process Mining](https://en.wikipedia.org/wiki/Process_mining)). Deze informatie kan worden gebruikt ter verbetering van didactiek en toetsing.
 
 \pagebreak
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.3.19)  29 APR 2020 12:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.3.19)  30 APR 2020 12:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -694,83 +694,83 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/smartindustry
 .jpg>]
-<images/toetscyclus.png, id=114, 455.6295pt x 443.1465pt>
+<images/toetscyclus.png, id=115, 455.6295pt x 443.1465pt>
 File: images/toetscyclus.png Graphic file (type png)
 <use images/toetscyclus.png>
-Package pdftex.def Info: images/toetscyclus.png  used on input line 151.
+Package pdftex.def Info: images/toetscyclus.png  used on input line 159.
 (pdftex.def)             Requested size: 187.89386pt x 182.7461pt.
 [3 <./images/toetscyclus.png>] [4] [5]
-Overfull \hbox (8.15901pt too wide) in paragraph at lines 234--235
+Overfull \hbox (8.15901pt too wide) in paragraph at lines 242--243
 []\T1/lmr/m/n/10 (-20) Beschrijft|  
  []
 
 
-Overfull \hbox (10.35378pt too wide) in paragraph at lines 243--244
+Overfull \hbox (10.35378pt too wide) in paragraph at lines 251--252
 []\T1/lmr/m/n/10 (-20) Communi- 
  []
 
 [6]
-<images/bloom.jpg, id=157, 746.01291pt x 419.63226pt>
+<images/bloom.jpg, id=158, 746.01291pt x 419.63226pt>
 File: images/bloom.jpg Graphic file (type jpg)
 <use images/bloom.jpg>
-Package pdftex.def Info: images/bloom.jpg  used on input line 272.
+Package pdftex.def Info: images/bloom.jpg  used on input line 280.
 (pdftex.def)             Requested size: 234.87009pt x 132.11443pt.
-<images/solotaxonomy.png, id=158, 853.1875pt x 589.20125pt>
+<images/solotaxonomy.png, id=159, 853.1875pt x 589.20125pt>
 File: images/solotaxonomy.png Graphic file (type png)
 <use images/solotaxonomy.png>
-Package pdftex.def Info: images/solotaxonomy.png  used on input line 281.
+Package pdftex.def Info: images/solotaxonomy.png  used on input line 289.
 (pdftex.def)             Requested size: 234.88115pt x 162.20615pt.
-<images/toetsmatrijs.png, id=160, 1054.94125pt x 722.7pt>
+<images/toetsmatrijs.png, id=161, 1054.94125pt x 722.7pt>
 File: images/toetsmatrijs.png Graphic file (type png)
 <use images/toetsmatrijs.png>
-Package pdftex.def Info: images/toetsmatrijs.png  used on input line 308.
+Package pdftex.def Info: images/toetsmatrijs.png  used on input line 316.
 (pdftex.def)             Requested size: 328.81519pt x 225.25873pt.
 [7 <./images/bloom.jpg> <./images/solotaxonomy.png>] [8 <./images/toetsmatrijs.
 png>]
-<images/journey.png, id=180, 758.835pt x 610.28pt>
+<images/journey.png, id=181, 758.835pt x 610.28pt>
 File: images/journey.png Graphic file (type png)
 <use images/journey.png>
-Package pdftex.def Info: images/journey.png  used on input line 324.
+Package pdftex.def Info: images/journey.png  used on input line 332.
 (pdftex.def)             Requested size: 187.8904pt x 151.10762pt.
 [9 <./images/journey.png>]
-<images/portfolio.png, id=189, 1049.9225pt x 634.37pt>
+<images/portfolio.png, id=190, 1049.9225pt x 634.37pt>
 File: images/portfolio.png Graphic file (type png)
 <use images/portfolio.png>
-Package pdftex.def Info: images/portfolio.png  used on input line 344.
+Package pdftex.def Info: images/portfolio.png  used on input line 352.
 (pdftex.def)             Requested size: 281.84877pt x 170.29485pt.
 [10 <./images/portfolio.png>]
-<images/classroom.png, id=198, 902.37125pt x 378.41376pt>
+<images/classroom.png, id=199, 902.37125pt x 378.41376pt>
 File: images/classroom.png Graphic file (type png)
 <use images/classroom.png>
-Package pdftex.def Info: images/classroom.png  used on input line 360.
+Package pdftex.def Info: images/classroom.png  used on input line 368.
 (pdftex.def)             Requested size: 281.85263pt x 118.19626pt.
-<images/rubric.png, id=199, 1382.16376pt x 689.57625pt>
+<images/rubric.png, id=200, 1382.16376pt x 689.57625pt>
 File: images/rubric.png Graphic file (type png)
 <use images/rubric.png>
-Package pdftex.def Info: images/rubric.png  used on input line 371.
+Package pdftex.def Info: images/rubric.png  used on input line 379.
 (pdftex.def)             Requested size: 281.848pt x 140.61697pt.
 [11 <./images/classroom.png> <./images/rubric.png>]
-<images/survey.png, id=209, 566.115pt x 772.8875pt>
+<images/survey.png, id=210, 566.115pt x 772.8875pt>
 File: images/survey.png Graphic file (type png)
 <use images/survey.png>
-Package pdftex.def Info: images/survey.png  used on input line 391.
+Package pdftex.def Info: images/survey.png  used on input line 399.
 (pdftex.def)             Requested size: 281.86473pt x 384.81532pt.
 [12 <./images/survey.png>] [13] [14] [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 496.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 504.
 [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 496.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 504.
 (./bkepdf.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 496.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 496.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 504.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 504.
 Package rerunfilecheck Info: File `bkepdf.out' has not changed.
 (rerunfilecheck)             Checksum: 282EEC1878D7A19AD1A6D3FF7BC1E72E;2606.
  ) 
 Here is how much of TeX's memory you used:
- 12681 strings out of 492615
- 184704 string characters out of 6131390
+ 12679 strings out of 492615
+ 184684 string characters out of 6131390
  294429 words of memory out of 5000000
  16243 multiletter control sequences out of 15000+600000
- 58389 words of font info for 101 fonts, out of 8000000 for 9000
+ 58306 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,6n,38p,902b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -779,10 +779,10 @@ e/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10
 .pfb>
-Output written on bkepdf.pdf (16 pages, 2476407 bytes).
+Output written on bkepdf.pdf (16 pages, 2476808 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 250 compressed objects within 3 object streams
+ 296 PDF objects out of 1000 (max. 8388607)
+ 251 compressed objects within 3 object streams
  82 named destinations out of 1000 (max. 500000)
  12483 words of extra memory for PDF output out of 14400 (max. 10000000)
 
